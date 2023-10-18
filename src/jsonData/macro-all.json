@@ -1,0 +1,3242 @@
+[
+  {
+    "cmd_zh": "/说话频道",
+    "cmd_en": "/say",
+    "cmd_zh_abbr": "/说",
+    "cmd_en_abbr": "/s",
+    "desc": "/说话频道(/说) 发言内容\n/say、/s\n让身边小范围内（20m）的玩家看到自己的发言。\n只输入“/说话频道(/说)”可将默认聊天频道变更为说话频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/呼喊频道",
+    "cmd_en": "/yell",
+    "cmd_zh_abbr": "/呼",
+    "cmd_en_abbr": "/y",
+    "desc": "/呼喊频道(/呼) 发言内容\n/yell、/y\n让身边大范围内（100m）的玩家看到自己的发言。\n只输入“/呼喊频道(/呼)”可将默认聊天频道变更为呼喊频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/喊话频道",
+    "cmd_en": "/shout",
+    "cmd_zh_abbr": "/喊",
+    "cmd_en_abbr": "/sh",
+    "desc": "/喊话频道(/喊) 发言内容\n/shout、/sh\n让当前所在区域的所有玩家看到自己的发言。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/悄悄话频道",
+    "cmd_en": "/tell",
+    "cmd_zh_abbr": "/悄",
+    "cmd_en_abbr": "/t",
+    "desc": "/悄悄话频道(/悄) 玩家名@服务器名 发言内容\n/tell、/t\n向和自己属于同一服务器的指定玩家发送聊天消息。\n跨服务器发送时只能对好友或正在募集队员的队长生效。\n只输入“/悄悄话频道(/悄) 玩家名@服务器名”可将默认聊天频道变更为对该玩家的悄悄话频道。\n>>示例\n/悄 阿鲁玛@萌芽池 你好。\n对萌芽池服务器的阿鲁玛发送“你好。”的聊天消息。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/回答",
+    "cmd_en": "/reply",
+    "cmd_zh_abbr": "/回",
+    "cmd_en_abbr": "/r",
+    "desc": "/回答(/回) 发言内容\n/reply、/r\n向最后一次收到悄悄话的玩家发送聊天消息。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/清除悄悄话记录",
+    "cmd_en": "/cleartellhistory",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/cth",
+    "desc": "/清除悄悄话记录\n/cleartellhistory、/cth\n将悄悄话的历史记录全部清除。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/小队频道",
+    "cmd_en": "/party",
+    "cmd_zh_abbr": "/队",
+    "cmd_en_abbr": "/p",
+    "desc": "/小队频道(/队) 发言内容\n/party、/p\n向同一小队内的全体成员发送聊天消息，无论离多远、是不是在同一地图都可以看到。\n只输入“/小队频道(/队)”可将默认聊天频道变更为小队频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/团队频道",
+    "cmd_en": "/alliance",
+    "cmd_zh_abbr": "/团",
+    "cmd_en_abbr": "/a",
+    "desc": "/团队频道(/团) 发言内容\n/alliance、/a\n向同一团队的全体成员发送聊天消息，无论离多远、无论在哪个地区都可以看到。\n只输入“/团队频道(/团)”可将默认聊天频道变更为团队频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/部队频道",
+    "cmd_en": "/freecompany",
+    "cmd_zh_abbr": "/部",
+    "cmd_en_abbr": "/fc",
+    "desc": "/部队频道(/部) 发言内容\n/freecompany、/fc\n向同一部队内的全体成员发送聊天消息，无论离多远、无论在哪个地区都可以看到。\n只输入“/部队频道(/部)”可将默认聊天频道变更为部队频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/战队频道",
+    "cmd_en": "/pvpteam",
+    "cmd_zh_abbr": "/战",
+    "cmd_en_abbr": "/pt",
+    "desc": "/战队频道(/战) 发言内容\n/pvpteam、/pt\n向同一战队内的全体成员发送聊天消息，无论离多远、无论在哪个地区都可以看到。\n只输入“/战队频道(/战)”可将默认聊天频道变更为战队频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/通讯贝频道",
+    "cmd_en": "/linkshell",
+    "cmd_zh_abbr": "/讯",
+    "cmd_en_abbr": "/l",
+    "desc": "/通讯贝频道(/讯) 发言内容\n/linkshell、/l\n向常用通讯贝内的玩家发送聊天消息，无论离多远、是不是在同一地图都可以看到。\n只输入“/通讯贝频道(/讯)”可将默认聊天频道变更为通讯贝频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/通讯贝频道1\n~\n/通讯贝频道8",
+    "cmd_en": "/linkshell1\n~\n/linkshell8",
+    "cmd_zh_abbr": "/讯1\n~\n/讯8",
+    "cmd_en_abbr": "/l1\n~\n/l8",
+    "desc": "/通讯贝频道1(/讯1) 发言内容\n/linkshell1、/l1\n向１号通讯贝内的玩家发送聊天信息，无论离多远、无论在哪个地区都可以看到。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/跨服贝命令",
+    "cmd_en": "/cwlinkshellcmd",
+    "cmd_zh_abbr": "/跨服贝",
+    "cmd_en_abbr": "/cwlcmd",
+    "desc": "/跨服贝命令(/跨服贝)\n/cwlinkshellcmd、/cwlcmd\n打开跨服通讯贝窗口。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/跨服贝频道",
+    "cmd_en": "/cwlinkshell",
+    "cmd_zh_abbr": "/跨",
+    "cmd_en_abbr": "/cwl",
+    "desc": "//跨服贝频道(/跨) 发言内容\n/cwlinkshell、/cwl\n向常用跨服通讯贝内的玩家发送聊天消息，无论离多远、是不是在同一地图都可以看到。\n只输入“/跨服贝频道(/跨)”可将默认聊天频道变更为常用跨服通讯贝频道。\n>>示例\n\n/跨 大家好！\n在常用跨服通讯贝频道中发送消息“大家好！”。\n/跨\n将默认聊天频道变更为常用跨服通讯贝频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/跨服贝频道1\n~\n/跨服贝频道8",
+    "cmd_en": "/cwlinkshell1\n~\n/cwlinkshell8",
+    "cmd_zh_abbr": "/跨1\n~\n/跨8",
+    "cmd_en_abbr": "/cwl1\n~\n/cwl8",
+    "desc": "/跨服贝频道1(/跨1) 发言内容\n/cwlinkshell1、/cwl1\n向跨服通讯贝频道1内的玩家发送聊天消息，无论离多远、是不是在同一地图都可以看到。\n只输入“/跨服贝频道1(/跨1)”可将默认聊天频道变更为跨服通讯贝频道1。\n>>示例\n\n/跨1 大家好！\n在跨服通讯贝频道1中发送消息“大家好！”。\n/跨1\n将默认聊天频道变更为跨服通讯贝频道1。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/新人频道",
+    "cmd_en": "/beginner",
+    "cmd_zh_abbr": "/新",
+    "cmd_en_abbr": "/b",
+    "desc": "/新人频道(/新) 发言内容\n/beginner、/b\n向参加新人频道的所有玩家发送聊天消息，无论离多远、是不是在同一地图都可以看到。\n只输入“/新人频道(/新)”可将默认聊天频道变更为新人频道。\n>>示例\n/新人频道 你好。\n在新人频道发送“你好。”的聊天消息。\n/新人频道\n将默认聊天频道变更为新人频道。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/默语",
+    "cmd_en": "/echo",
+    "cmd_zh_abbr": "/默",
+    "cmd_en_abbr": "/e",
+    "desc": "/默语(/默) 发言内容\n/echo、/e\n显示只有自己能看到的发言内容。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/清除消息记录",
+    "cmd_en": "/clearlog",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/cl",
+    "desc": "/清除消息记录\n/clearlog、/cl\n将消息栏的历史记录全部清除。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/快捷发言",
+    "cmd_en": "/quickchat",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/qchat",
+    "desc": "/快捷发言 快捷发言名 代名词\n/quickchat、/qchat\n进行快捷发言。\n※只能在群狼盛宴中使用。\n>>示例\n/快捷发言 全力攻击\n发送快捷发言“全力攻击”。\n/快捷发言 攻击目标 <目标>\n发送快捷发言“攻击目标”加上当前所选目标的名字。",
+    "type": "聊天"
+  },
+  {
+    "cmd_zh": "/参加",
+    "cmd_en": "/join",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/参加\n/join\n接受组队邀请。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/拒绝",
+    "cmd_en": "/decline",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/拒绝\n/decline\n拒绝组队邀请。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/邀请",
+    "cmd_en": "/invite",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/邀请 代名词\n/invite\n邀请指定玩家加入小队。省略代名词可以把当前所选中的玩家作为对象。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/移除",
+    "cmd_en": "/kick",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/移除 代名词\n/kick\n将指定玩家移除小队。省略代名词可以把当前所选中的玩家作为对象。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/队长",
+    "cmd_en": "/leader",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/队长 代名词\n/leader\n将队长转让给指定玩家。省略代名词可以把当前所选中的玩家作为对象。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/退队",
+    "cmd_en": "/leave",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/退队\n/leave\n退出小队。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/小队命令",
+    "cmd_en": "/partycmd",
+    "cmd_zh_abbr": "/小队",
+    "cmd_en_abbr": "/pcmd",
+    "desc": "/小队命令(/小队) 子命令\n/partycmd、/pcmd\n运行各种组队指令。\n※跨服组队时仅会打开小队队员窗口以及使用“加入”指令。\n>>子命令\n加入(add) 代名词\n　邀请指定玩家加入小队。\n接受(accept)\n　接受小队发来的邀请。\n拒绝(deny)\n　拒绝小队发来的邀请。\n队长(leader) 代名词\n　将小队队长转让给指定玩家。\n退队(leave)\n　退出已加入的小队。\n移除(kick) 代名词\n　将指定队员移除出小队。\n解散(breakup)\n　解散小队。\n无子命令\n　打开小队队员窗口。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/小队排序",
+    "cmd_en": "/partysort",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/psort",
+    "desc": "/小队排序\n/partysort、/psort\n将小队列表按一定顺序排列。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/准备确认",
+    "cmd_en": "/readycheck",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/rcheck",
+    "desc": "/准备确认\n/readycheck、/rcheck\n发起准备确认。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/准备完毕",
+    "cmd_en": "/ready",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/rd",
+    "desc": "/准备完毕\n/ready、/rd\n有人发起准备确认时以确认准备完毕进行回应。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/没有准备好",
+    "cmd_en": "/notready",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/nr",
+    "desc": "/没有准备好\n/notready、/nr\n有人发起准备确认时以没有准备完毕进行回应。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/倒计时",
+    "cmd_en": "/countdown",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/cd",
+    "desc": "/倒计时 子命令\n/countdown、/cd\n设置战斗开始倒计时时间。\n>>子命令\n秒数(5-30)\n　实行指定时间的战斗开始倒计时。以文本指令实行此操作时将不会保存指定秒数，同时也不会在消息窗口中显示每5秒一次的通知信息。\n无子命令\n　打开战斗开始倒计时窗口。\n>>示例\n/倒计时 10\n执行10秒的战斗开始倒计时。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/好友命令",
+    "cmd_en": "/friendlist",
+    "cmd_zh_abbr": "/好友",
+    "cmd_en_abbr": "/flist",
+    "desc": "/好友命令(/好友) 子命令\n/friendlist、/flist\n运行各种好友名单相关指令。\n>>子命令\n加入(add) 代名词\n　向指定玩家发送好友申请。\n接受(accept) 代名词\n　接受指定玩家发来的好友申请。\n拒绝(deny) 代名词\n　拒绝指定玩家发来的好友申请。\n清除(remove) 代名词\n　将指定玩家移出好友名单。\n无子命令\n　打开好友名单。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/黑名单命令",
+    "cmd_en": "/blacklist",
+    "cmd_zh_abbr": "/黑名单",
+    "cmd_en_abbr": "/blist",
+    "desc": "/黑名单命令(/黑名单) 子命令\n/blacklist、/blist\n运行各种黑名单相关指令。\n>>子命令\n加入(add) 代名词\n　将指定玩家添加到黑名单中。\n清除(remove) 代名词\n　将指定玩家移出黑名单。\n无子命令\n　打开黑名单。",
+    "type": "小队及社交"
+  },
+  {
+    "cmd_zh": "/查看",
+    "cmd_en": "/check",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/c",
+    "desc": "/查看 代名词\n/check、/c\n查看目标玩家情报。省略代名词可以查看当前选中的目标。",
+    "type": "目标"
+  },
+  {
+    "cmd_zh": "/交易",
+    "cmd_en": "/trade",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/交易\n/trade\n向目标玩家申请交易。",
+    "type": "目标"
+  },
+  {
+    "cmd_zh": "/自动前进",
+    "cmd_en": "/automove",
+    "cmd_zh_abbr": "/前进",
+    "cmd_en_abbr": "",
+    "desc": "/自动前进(/前进) 子命令\n/automove\n向当前面对的方向自动前进。\n>>子命令\n开(on)\n　开启自动前进。\n关(off)\n　关闭自动前进。\n无子命令\n　在开启与关闭之间切换。",
+    "type": "目标"
+  },
+  {
+    "cmd_zh": "/跟随",
+    "cmd_en": "/follow",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/跟随\n/follow\n自动跟随所选玩家。",
+    "type": "目标"
+  },
+  {
+    "cmd_zh": "/委托镶嵌",
+    "cmd_en": "/meldrequest",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/委托镶嵌 代名词\n/meldrequest\n向目标玩家发送魔晶石镶嵌委托。省略代名词可以向当前选中的玩家发送魔晶石镶嵌委托。",
+    "type": "目标"
+  },
+  {
+    "cmd_zh": "/技能",
+    "cmd_en": "/action",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ac",
+    "desc": "/技能 技能名 代名词\n/action、/ac\n对指定目标使用指定技能。以自己为目标的技能可以省略输入代名词。\n如果身处无法使用技能的环境，或者还没有学会指定技能，则命令无效。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/技能 重劈 <目标>\n对当前所选择的目标执行技能“重劈”。\n/技能 治疗 <2>\n对小队列表中的2号队员执行技能“治疗”。\n/技能 缩地 <目标>\n对选择目标的位置执行技能“缩地”。\n/技能 缩地 地面关\n对所指的位置直接执行技能“缩地”。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/青魔法技能",
+    "cmd_en": "/blueaction",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/青魔法技能 青魔法名 代名词\n/blueaction\n对指定目标使用指定青魔法技能。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/青魔法技能 水炮 <目标>\n对当前所选择的目标执行技能“水炮”。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/对战技能",
+    "cmd_en": "/pvpaction",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/pvpac",
+    "desc": "/对战技能 对战技能名 代名词\n/pvpaction、/pvpac\n对指定目标使用指定对战技能。以自己为目标的技能可以省略输入代名词。向目标攻击类技能必须使用代名词。如果身处无法使用技能的环境，或者还没有学会指定技能，则命令无效。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/对战技能 暴风斩连击 <目标>\n对当前所选择的对象执行连击中的技能。\n/对战技能 缩地 <目标>\n对选择目标的位置执行技能“缩地”。\n/对战技能 缩地 地面关\n对所指的位置直接执行技能“缩地”。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/共通技能",
+    "cmd_en": "/generalaction",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/gaction",
+    "desc": "/共通技能 共通技能名 代名词\n/generalaction、/gaction\n对指定的玩家发动指定的共通技能。对于可以以自身为目标的共通技能可以省略代名词。处于无法发动共通技能的环境中指令无效，没有学会的共通技能也无法发动。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/共通技能 随机坐骑\n发动共通技能“随机坐骑”。\n/共通技能 任务指令1 <目标>\n对目标发动任务指令中的第一个技能。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/搭档技能",
+    "cmd_en": "/companionaction",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/cac",
+    "desc": "/搭档技能 搭档技能名\n/companionaction、/cac\n命令搭档使用指定搭档技能。无需指定目标。如果身处无法使用技能的环境，或者命令搭档技能以外的技能，或者还没有学会命令的搭档技能，则命令无效。\n>>示例\n/搭档技能 自由战术\n让搭档执行“自由战术”的命令。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/召唤兽技能",
+    "cmd_en": "/petaction",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/pac",
+    "desc": "/召唤兽技能 召唤兽技能名 代名词\n/petaction、/pac\n命令召唤兽对指定目标使用指定召唤兽技能。以自己或召唤兽为目标的技能可省略输入目标名。如果身处无法使用技能的环境，或者指定召唤兽技能以外的技能，或者还没有学会指定召唤兽技能，则命令无效。\n>>示例\n/召唤兽技能 等待指示\n让召唤兽执行“等待指示”的命令。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/坐骑",
+    "cmd_en": "/mount",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/坐骑 坐骑名\n/mount\n乘上指定的坐骑。在骑乘状态下会跳下坐骑。省略坐骑名时也会跳下坐骑。在飞行状态时会迅速下降。\n>>示例\n/坐骑 专属陆行鸟\n骑上坐骑“专属陆行鸟”。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/宠物",
+    "cmd_en": "/minion",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/宠物 宠物名\n/minion\n召唤出指定的宠物。在已经召唤出宠物的情况下，指定该宠物的名字或省略宠物名会让宠物离开。\n>>示例\n/宠物 巧儿陆行鸟\n召唤出宠物“巧儿陆行鸟”。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/复唱时间",
+    "cmd_en": "/recast",
+    "cmd_zh_abbr": "/复唱",
+    "cmd_en_abbr": "",
+    "desc": "/复唱时间(/复唱) 技能名\n/recast\n在对话框内显示技能的复唱时间，即还有多久可以再次使用。\n>>示例\n/复唱时间 以太超流\n显示距离可再次使用“以太超流”技能还有多少时间。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/额外技能",
+    "cmd_en": "/additionalaction",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/aaction",
+    "desc": "/额外技能 技能名 子命令\n/additionalaction、/aaction\n将指定的“额外技能（仅限大地使者）”设置到当前职业上。技能名使用“撤除(clear)”时会解除当前设定的所有已选技能。\n>>子命令\n开(on)\n　设置指定技能。\n关(off)\n　解除指定技能。\n无子命令\n　在设置或解除技能中切换。\n>>示例\n/额外技能 三角测量 开\n将“三角测量”设置为当前职业的额外技能。\n/额外技能 撤除\n解除当前职业所设置的额外技能。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/青魔法书",
+    "cmd_en": "/bluespellbook",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/青魔法书 子命令\n/bluespellbook\n对青魔法进行有效技能设置。\n>>子命令\n设置 青魔法名 开\n　将指定青魔法设为有效技能。\n设置 青魔法名 关\n　将指定青魔法从有效技能中解除。\n预设 有效技能组序号(1-5)\n　换上指定序号的有效技能组。\n撤除\n　将当前设置的有效技能全解除。\n无子命令\n　开启或关闭青魔法书。\n>>示例\n/青魔法书 设置 水炮\n将青魔法水炮设为有效技能或从有效技能中解除。\n/青魔法书 预设 2\n将有效技能变为预设好的有效技能组2。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/对战额外技能",
+    "cmd_en": "/addpvpaction",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/apa",
+    "desc": "/对战额外技能 对战额外技能1 对战额外技能2\n/addpvpaction、/apa\n在对战技能中设置要追加的额外技能。需要同时设置两个技能。\n>>示例\n/对战额外技能 武器投掷 全力挥打\n设置“武器投掷”和“全力挥打”这两个技能。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/热键栏",
+    "cmd_en": "/hotbar",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/热键栏 子命令\n/hotbar\n对热键栏进行操作及设置。只能在非对战区域内使用。\n>>子命令\n设置(set)或技能(action) 技能名 编号1 编号2\n　将指定技能设置到编号1热键栏的编号2位置上。编号1可以用“当前(current)”来表示当前的热键栏1。省略编号2会默认为设置到编号最小的空位上。两个编号都省略则会默认设置到编号最小热键栏的编号最小空位上。\n青魔法技能(blueaction) 青魔法名 编号1 编号2\n　将指定青魔法设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n共通技能(general) 共通技能名 编号1 编号2\n　将指定共通技能设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n道具(item) 道具名 编号1 编号2\n　将指定道具设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n情感动作(emote) 情感动作名 编号1 编号2\n　将指定情感动作设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n搭档(buddy) 搭档技能名 编号1 编号2\n　将指定搭档技能设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n召唤兽(pet) 召唤兽技能名 编号1 编号2\n　将指定召唤兽技能设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n宠物(minion) 宠物名 编号1 编号2\n　将指定宠物设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n坐骑(mount) 坐骑名 编号1 编号2\n　将指定坐骑设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n标记(marking) 标记名 编号1 编号2\n　将指定标记设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n场景标记(waymark) 场景标记名 编号1 编号2\n　将指定场景标记设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n更换(change) 编号\n　将指定编号的热键栏切换到默认热键栏1的位置。编号用“下一个(next)”或“上一个(prev)”可以将当前热键栏1位置所表示的技能切换到上一组或者下一组热键。\n复制(copy) 职业名1 编号1 职业名2 编号2\n　将职业名1的编号1热键栏的内容复制到职业名2的编号2热键栏上。职业名设置为“当前(current)”时会指定当前的职业。职业名设置为“共通(share)”时会指定共通热键栏。\n显示(display) 编号 开(on)\n　开启显示指定编号的热键栏。\n显示(display) 编号 关(off)\n　关闭显示指定编号的热键栏。\n显示(display) 编号\n　在开启和关闭之间切换。\n共通(share) 编号 开(on)\n　将指定编号的热键栏设置成全职业共通。\n共通(share) 编号 关(off)\n　将指定编号的热键栏从全职业共通改为当前专用。\n共通(share) 编号\n　设置指定编号的热键栏在当前专用和全职业共通之间切换。\n清除(remove) 编号1 编号2\n　解除编号1热键栏编号2位置上的技能或用户宏指令。编号2设置为“全部(all)”的时候会将该热键栏上的所有指令都解除。\n>>示例\n/热键栏 设置 随机坐骑 1 1\n将“随机坐骑”放入热键栏1的位置1中。\n/热键栏 更换 2\n将热键栏2的内容切换到默认热键栏1的位置。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/对战热键栏",
+    "cmd_en": "/pvphotbar",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/对战热键栏 子命令\n/pvphotbar\n对用于对战的热键栏进行操作及设置。只能在对战区域内使用。\n>>子命令\n设置(set)或技能(action) 对战技能名 编号1 编号2\n　将指定的对战技能设置到编号1热键栏的编号2位置上。编号1可以用“当前(current)”来表示当前的热键栏1。省略编号2会默认为设置到编号最小的空位上。两个编号都省略则会默认设置到编号最小热键栏的编号最小空位上。\n共通技能(general) 共通技能名 编号1 编号2\n　将指定共通技能设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n道具(item) 道具名 编号1 编号2\n　将指定道具设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n情感动作(emote) 情感动作名 编号1 编号2\n　将指定情感动作设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n搭档(buddy) 搭档技能名 编号1 编号2\n　将指定搭档技能设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n召唤兽(pet) 召唤兽技能名 编号1 编号2\n　将指定召唤兽技能设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n宠物(minion) 宠物名 编号1 编号2\n　将指定宠物设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n坐骑(mount) 坐骑名 编号1 编号2\n　将指定坐骑设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n标记(marking) 标记名 编号1 编号2\n　将指定标记设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n场景标记(waymark) 场景标记名 编号1 编号2\n　将指定场景标记设置到编号1热键栏的编号2位置上。设置规则与“设置(set)”相同。\n更换(change) 编号\n　将指定编号的热键栏切换到默认热键栏1的位置。编号用“下一个(next)”或“上一个(prev)”可以将当前热键栏1位置所表示的技能切换到上一组或者下一组热键。\n复制(copy) 特职名1 编号1 特职名2 编号2\n　将特职名1的编号1热键栏的内容复制到特职名2的编号2热键栏上。特职名设置为“当前(current)”时会指定当前的特职。特职名设置为“共通(share)”时会指定共通热键栏。\n显示(display) 编号 开(on)\n　开启显示指定编号的热键栏。\n显示(display) 编号 关(off)\n　关闭显示指定编号的热键栏。\n显示(display) 编号\n　在开启和关闭之间切换。\n共通(share) 编号 开(on)\n　将指定编号的热键栏设置成全职业共通。\n共通(share) 编号 关(off)\n　将指定编号的热键栏从全职业共通改为当前专用。\n共通(share) 编号\n　设置指定编号的热键栏在当前专用和全职业共通之间切换。\n清除(remove) 编号1 编号2\n　解除编号1热键栏编号2位置上的技能或用户宏指令。编号2设置为“全部(all)”的时候会将该热键栏上的所有指令都解除。\n>>示例\n/对战热键栏 技能 净化 1 1\n将“净化”放入热键栏1的位置1中。\n/对战热键栏 更换 2\n将热键栏2的内容切换到默认热键栏1的位置。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/十字热键栏",
+    "cmd_en": "/crosshotbar",
+    "cmd_zh_abbr": "/chotbar",
+    "cmd_en_abbr": "/chotbar",
+    "desc": "/十字热键栏 子命令\n/crosshotbar、/chotbar\n对十字热键栏进行操作及设置。只能在非对战区域内使用。\n>>子命令\n设置(set)或技能(action) 技能名 编号 位置\n　将指定技能设置到指定编号十字热键栏的指定位置上。编号可以用“当前(current)”来表示当前的十字热键栏。\n青魔法技能(blueaction) 青魔法名 编号 位置\n　将指定青魔法设置到指定编号十字热键栏的指定位置上。\n共通技能(general) 共通技能名 编号 位置\n　将指定共通技能设置到指定编号十字热键栏的指定位置上。\n道具(item) 道具名 编号 位置\n　将指定道具设置到指定编号十字热键栏的指定位置上。\n情感动作(emote) 情感动作名 编号 位置\n　将指定情感动作设置到指定编号十字热键栏的指定位置上。\n搭档(buddy) 搭档技能名 编号 位置\n　将指定搭档技能设置到指定编号十字热键栏的指定位置上。\n召唤兽(pet) 召唤兽技能名 编号 位置\n　将指定召唤兽技能设置到指定编号十字热键栏的指定位置上。\n宠物(minion) 宠物名 编号 位置\n　将指定宠物设置到指定编号十字热键栏的指定位置上。\n坐骑(mount) 坐骑名 编号 位置\n　将指定坐骑设置到指定编号十字热键栏的指定位置上。\n标记(marking) 标记名 编号 位置\n　将指定标记设置到指定编号十字热键栏的指定位置上。\n场景标记(waymark) 场景标记名 编号 位置\n　将指定场景标记设置到指定编号十字热键栏的指定位置上。\n更换(change) 编号\n　切换到指定编号的十字热键栏。编号用“下一个(next)”或“上一个(prev)”可以将当前十字热键栏位置所表示的技能切换到上一组或者下一组热键。\n复制(copy) 职业名1 编号1 职业名2 编号2\n　将职业名1的编号1十字热键栏的内容复制到职业名2的编号2十字热键栏上。职业名设置为“当前(current)”时会指定当前的职业。职业名设置为“共通(share)”时会指定共通热键栏。\n共通(share) 编号 开(on)\n　将指定编号的十字热键栏设置成全职业共通。\n共通(share) 编号 关(off)\n　将指定编号的十字热键栏从全职业共通改为当前职业专用。\n共通(share) 编号\n　设置指定编号的十字热键栏在当前职业专用和全职业共通之间切换。\n清除(remove) 编号 位置\n　解除指定编号十字热键栏指定位置上的技能或用户宏指令。指定位置设置为“全部(all)”的时候会将该十字热键栏上的所有指令都解除。\n>>指定位置\n＋ … LDL(LD1)　＋ … RDL(RD1)\n＋ … LDU(LD2)　＋ … RDU(RD2)\n＋ … LDR(LD3)　＋ … RDR(RD3)\n＋ … LDD(LD4)　＋ … RDD(RD4)\n＋ … LAL(LA1)　＋ … RAL(RA1)\n＋ … LAU(LA2)　＋ … RAU(RA2)\n＋ … LAR(LA3)　＋ … RAR(RA3)\n＋ … LAD(LA4)　＋ … RAD(RA4)",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/对战十字热键栏",
+    "cmd_en": "/pvpcrosshotbar",
+    "cmd_zh_abbr": "/pvpchotbar",
+    "cmd_en_abbr": "/pvpchotbar",
+    "desc": "/对战十字热键栏 子命令\n/pvpcrosshotbar、/pvpchotbar\n对用于对战的十字热键栏进行操作及设置。只能在对战区域内使用。\n>>子命令\n设置(set)或技能(action) 对战技能名 编号 位置\n　将指定的对战技能设置到指定编号十字热键栏的指定位置上。编号可以用“当前(current)”来表示当前的十字热键栏。\n共通技能(general) 共通技能名 编号 位置\n　将指定共通技能设置到指定编号十字热键栏的指定位置上。\n道具(item) 道具名 编号 位置\n　将指定道具设置到指定编号十字热键栏的指定位置上。\n情感动作(emote) 情感动作名 编号 位置\n　将指定情感动作设置到指定编号十字热键栏的指定位置上。\n搭档(buddy) 搭档技能名 编号 位置\n　将指定搭档技能设置到指定编号十字热键栏的指定位置上。\n召唤兽(pet) 召唤兽技能名 编号 位置\n　将指定召唤兽技能设置到指定编号十字热键栏的指定位置上。\n宠物(minion) 宠物名 编号 位置\n　将指定宠物设置到指定编号十字热键栏的指定位置上。\n坐骑(mount) 坐骑名 编号 位置\n　将指定坐骑设置到指定编号十字热键栏的指定位置上。\n标记(marking) 标记名 编号 位置\n　将指定标记设置到指定编号十字热键栏的指定位置上。\n场景标记(waymark) 场景标记名 编号 位置\n　将指定场景标记设置到指定编号十字热键栏的指定位置上。\n更换(change) 编号\n　切换到指定编号的十字热键栏。编号用“下一个(next)”或“上一个(prev)”可以将当前十字热键栏位置所表示的技能切换到上一组或者下一组热键。\n复制(copy) 特职名1 编号1 特职名2 编号2\n　将特职名1的编号1十字热键栏的内容复制到特职名2的编号2十字热键栏上。特职名设置为“当前(current)”时会指定当前的特职。特职名设置为“共通(share)”时会指定共通热键栏。\n共通(share) 编号 开(on)\n　将指定编号的十字热键栏设置成全职业共通。\n共通(share) 编号 关(off)\n　将指定编号的十字热键栏从全职业共通改为当前职业专用。\n共通(share) 编号\n　设置指定编号的十字热键栏在当前职业专用和全职业共通之间切换。\n清除(remove) 编号 位置\n　解除指定编号十字热键栏指定位置上的技能或用户宏指令。指定位置设置为“全部(all)”的时候会将该十字热键栏上的所有指令都解除。\n>>指定位置\n＋ … LDL(LD1)　＋ … RDL(RD1)\n＋ … LDU(LD2)　＋ … RDU(RD2)\n＋ … LDR(LD3)　＋ … RDR(RD3)\n＋ … LDD(LD4)　＋ … RDD(RD4)\n＋ … LAL(LA1)　＋ … RAL(RA1)\n＋ … LAU(LA2)　＋ … RAU(RA2)\n＋ … LAR(LA3)　＋ … RAR(RA3)\n＋ … LAD(LA4)　＋ … RAD(RA4)",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/一直显示十字热键栏",
+    "cmd_en": "/crosshotbardisplay",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/chotbardisplay",
+    "desc": "/一直显示十字热键栏 子命令\n/crosshotbardisplay、/chotbardisplay\n对角色设置中的“一直显示十字热键栏”项进行设置。\n>>子命令\n开(on)\n　开启一直显示。\n关(off)\n　关闭一直显示。\n无子命令\n　在显示和关闭之间切换。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/操作类型",
+    "cmd_en": "/crosshotbartype",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/chotbartype",
+    "desc": "/操作类型 子命令\n/crosshotbartype、/chotbartype\n变更角色设置中“十字热键栏的操作类型”。\n>>子命令\n按住(hold)\n　将操作类型设置为按住。\n单击(toggle)\n　将操作类型设置为单击。\n混合(mix)\n　将操作类型设置为混合。",
+    "type": "技能/热键栏"
+  },
+  {
+    "cmd_zh": "/武器状态",
+    "cmd_en": "/battlemode",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/bm",
+    "desc": "/武器状态 子命令\n/battlemode、/bm\n切换拔出和收回武器状态。\n>>子命令\n开(on)\n　切换到拔出武器状态\n关(off)\n　切换到收回武器状态\n无子命令\n　在拔出和收回武器状态之间切换。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/选中",
+    "cmd_en": "/target",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ta",
+    "desc": "/选中 代名词\n/target、/ta\n选中指定的玩家。\n离自己过远的玩家无法选中。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/选中最近玩家",
+    "cmd_en": "/targetpc",
+    "cmd_zh_abbr": "/最近玩家",
+    "cmd_en_abbr": "/tpc",
+    "desc": "/选中最近玩家(/最近玩家)\n/targetpc、/tpc\n选中可选范围内离自己距离最近的玩家。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/选中最近非玩家",
+    "cmd_en": "/targetnpc",
+    "cmd_zh_abbr": "/最近非玩家",
+    "cmd_en_abbr": "/tnpc",
+    "desc": "/选中最近非玩家(/最近非玩家)\n/targetnpc、/tnpc\n选中可选范围内离自己最近的非玩家角色。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/选中最近敌人",
+    "cmd_en": "/targetenemy",
+    "cmd_zh_abbr": "/最近敌人",
+    "cmd_en_abbr": "/tenemy",
+    "desc": "/选中最近敌人(/最近敌人)\n/targetenemy、/tenemy\n选中可选范围内离自己距离最近的敌人。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/战斗目标",
+    "cmd_en": "/battletarget",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/bt",
+    "desc": "/战斗目标\n/battletarget、/bt\n选中敌视自己的距离最近的敌人。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/目标的目标",
+    "cmd_en": "/assist",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/as",
+    "desc": "/目标的目标 代名词\n/assist、/as\n将指定玩家的当前选中的目标作为自己的目标选中。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/转向目标",
+    "cmd_en": "/facetarget",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ft",
+    "desc": "/转向目标\n/facetarget、/ft\n转身面向当前所选目标的方向。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/右侧选择",
+    "cmd_en": "/nexttarget",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/nt",
+    "desc": "/右侧选择\n/nexttarget、/nt\n从屏幕右侧开始按顺时针方向顺次选中敌人。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/左侧选择",
+    "cmd_en": "/previoustarget",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/pt",
+    "desc": "/左侧选择\n/previoustarget、/pt\n从屏幕左侧开始按逆时针方向顺次选中敌人。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/上次目标",
+    "cmd_en": "/targetlasttarget",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/tlt",
+    "desc": "/上次目标\n/targetlasttarget、/tlt\n选中上次选中的目标。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/前次敌人",
+    "cmd_en": "/targetlastenemy",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/tle",
+    "desc": "/前次敌人\n/targetlastenemy、/tle\n重新选中前一次选中的敌人。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/锁定",
+    "cmd_en": "/lockon",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/lo",
+    "desc": "/锁定 子命令\n/lockon、/lo\n锁定或解除锁定当前选中的目标。\n>>子命令\n开(on)\n　锁定目标。\n关(off)\n　解除锁定。\n无子命令\n　在锁定与解除锁定之间切换。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/焦点目标",
+    "cmd_en": "/focustarget",
+    "cmd_zh_abbr": "/焦点",
+    "cmd_en_abbr": "",
+    "desc": "/焦点目标(/焦点) 代名词\n/focustarget\n将指定玩家设置为焦点目标。省略代名词会指定当前所选目标为焦点目标。\n>>示例\n/焦点目标 <t>\n将当前所选择的目标设置为焦点目标。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/标记",
+    "cmd_en": "/marking",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/mk",
+    "desc": "/标记 标记种类 代名词\n/marking、/mk\n给指定的玩家加上指定的标记。省略玩家名可以将标记加到当前选中的目标上。\n>>标记种类\n攻击(attack)或攻击1～5(attack1～5)\n　设置攻击1～5的标记。不指定数值则会标记当前未使用的最小数值攻击标记。\n止步(bind)或止步1～3(bind1～3)\n　设置止步1～3的标记。不指定数值则会标记当前未使用的最小数值止步标记。\n禁止(stop)或禁止1～2(stop1～2)\n　设置禁止1～2的标记。不指定数值则会标记当前未使用的最小数值禁止标记。\n方块(square)\n　设置泛用方块标志。\n圆圈(circle)\n　设置泛用圆圈标志。\n叉(cross)\n　设置泛用交叉标志。\n三角(triangle)\n　设置泛用三角标志。\n撤除(clear)或关(off)\n　解除标志。\n无子命令\n　打开目标标记窗口。\n>>示例\n/标记 攻击3 <t>\n给目标加上“攻击3”的标记。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/场景标记",
+    "cmd_en": "/waymark",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/wmark",
+    "desc": "/场景标记 子命令 代名词\n/waymark、/wmark\n设置场景标记。\n>>子命令\n标记名(A、B、C、D、1、2、3、4)\n　设置标记。已设置的情况下则会撤除，如果指定代名词则会进行覆盖。\n标记名(A、B、C、D、1、2、3、4) 代名词\n　在指定目标脚下直接设置标记。\n标记名(A、B、C、D、1、2、3、4) 地面关\n　在当前所指位置直接设置标记。\n撤除(clear)或关(off)\n\n　撤除所有设置中的标记。\n保存(save) 存档编号1-5\n　保存当前设置的场景标记配置。\n预设(preset) 存档编号1-5 　读取保存好的场景标记配置。\n省略标记名\n　从A开始顺次设置尚未使用的标记。所有标记都设置完毕的状态下无法使用。指定代名词时无法省略标记名。\n>>示例\n/场景标记 A\n进入用于设置标记A的场景标记模式。\n/场景标记 A <目标>\n将标记A设置在所选目标的位置。\n/场景标记 A 地面关\n将标记A设置在当前所指位置。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "/解除状态",
+    "cmd_en": "/statusoff",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/解除状态 强化状态名\n/statusoff\n解除指定的强化状态效果。\n>>示例\n/解除状态 舍身\n解除强化效果“舍身”。",
+    "type": "战斗"
+  },
+  {
+    "cmd_zh": "",
+    "cmd_en": "/?",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/? 指令名\n显示指定指令的说明。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/称号",
+    "cmd_en": "/title",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/称号 子命令\n/title\n改变称号。\n>>子命令\n设置 称号名\n　将称号设置为称号名对应的称号。\n撤除\n　将称号撤除。\n无子命令\n　将称号变为随机一个已获得的称号。\n>>示例\n/称号 设置 银剑\n　将称号设为“银剑”。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/套装",
+    "cmd_en": "/gearset",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/gs",
+    "desc": "/套装 子命令\n/gearset、/gs\n进行套装相关的操作。\n>>子命令\n更换(change) 套装编号\n　装备指定编号的套装。\n查看(view) 套装编号\n　查看指定编号套装的内容。\n保存(save) 套装编号\n　将当前穿着的装备保存到指定编号的位置中；省略编号的情况下会自动登录到最小空位编号中；指定编号已有内容时会直接覆盖保存。\n清除(remove) 套装编号\n　删除指定编号的套装，装备本身不会被删除。\n无子命令\n　打开套装列表。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/道具整理",
+    "cmd_en": "/itemsort",
+    "cmd_zh_abbr": "/整理",
+    "cmd_en_abbr": "/isort",
+    "desc": "/道具整理(整理) 子命令\n/itemsort、/isort\n可以以比“自动整理”更加详细的设置来整理物品的排列顺序。该命令中设置的条件与原有的“自动整理”条件不会发生冲突，只会对该命令有影响。\n\n>>子命令\n条件(condition) 对象 顺序\n　在指定的对象范围内将指定的顺序设置为排列条件。\n实行(execute) 对象\n　在指定的对象范围内以设置的条件进行排列。\n撤除(clear) 对象\n　撤除指定对象范围内设置的排列条件，该状态下由于排列条件已经撤除，通过命令进行排列时不会有任何效果。\n\n>>对象指定\n物品(Inventory) 雇员物品(Retainer) 兵装库(ArmouryChest) 陆行鸟鞍囊（saddlebag） 陆行鸟鞍囊2（rightsaddlebag） 主手(main) 副手(sub) 头部(head) 身体(body) 手臂(hands) 腿部(legs) 脚部(feet) 颈部(neck) 耳部(ears) 腕部(wrists) 戒指(rings) 灵魂水晶(soul)\n\n>>条件指定\n道具编号(id) 精炼度(spiritbond) 道具种类(category) 装备等级(level) 物品品级(itemlevel) 打包数量(stack) 优质道具(hq) 魔晶石数(materia) 物理基本性能(physicaldamage) 魔法基本性能(magicdamage) 攻击间隔(delay) 物理自动攻击(physicalautoattack) 格挡发动力(blockrate) 格挡性能(blockstrength) 物理防御力(defense) 魔法防御力(magicdefense) 力量(str) 灵巧(dex) 耐力(vit) 智力(int) 精神(mnd) 作业精度(craftsmanship) 加工精度(control) 获得力(gathering) 鉴别力(perception) 分栏(tab)\n※分栏(tab)会按照每个收纳分栏进行指定分配。\n\n>>顺序指定\n升序(asc) 降序(des)\n※顺序省略时会按照升序进行处理。\n※条件指定设为“分栏(tab)”时不需要设置。\n\n>>示例\n/道具整理 条件 主手 精炼度 升序\n/道具整理 条件 主手 物品品级 降序\n/道具整理 实行 主手\n将兵装库内主手栏下的排列条件设为精炼度升序及道具品级降序，并开始进行整理。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/道具检索",
+    "cmd_en": "/itemsearch",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/isearch",
+    "desc": "/道具检索 发言内容\n/itemsearch、/isearch\n只能在对话栏中输入。可以通过输入发言内容对所持物品进行检索。\n检索对象为装备中的物品、背包、陆行鸟鞍囊、兵装库、雇员物品栏、收藏柜、投影台。\n>>示例\n/道具检索 恢复药\n检索所持品中名称包含了关键词“恢复药”的道具。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/等级同步",
+    "cmd_en": "/levelsync",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/lsync",
+    "desc": "/等级同步 子命令\n/levelsync、/lsync\n在危命任务等有等级限制的情况时使用这个命令可以进行等级同步。\n>>子命令\n开(on)\n　开启等级同步。\n关(off)\n　解除等级同步。\n无子命令\n　在开启或解除状态中切换。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/头部装备",
+    "cmd_en": "/visor",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/头部装备\n/visor\n对头部装备进行操作。\n※针对可以开合以及有明暗表现等功能的装备。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/十二神印记",
+    "cmd_en": "/legacymark",
+    "cmd_zh_abbr": "/神印",
+    "cmd_en_abbr": "/lmark",
+    "desc": "/十二神印记(/神印) 子命令\n/legacymark、/lmark\n设置是否显示自己角色的十二神印记。\n>>子命令\n开(on)\n　显示十二神印记。\n关(off)\n　不显示十二神印记。\n无子命令\n　在显示与不显示之间切换。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/面向镜头",
+    "cmd_en": "/facecamera",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/fcam",
+    "desc": "/面向镜头\n/facecamera、/fcam\n将角色视线转向镜头视角，再次发动时会解除。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/集体动作",
+    "cmd_en": "/grouppose",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/gpose",
+    "desc": "/集体动作\n/grouppose、/gpose\n执行集体动作。\n>>功能内操作\n显示镜头设置窗口\n/R键、小键盘*/鼠标滚轮\n角色面朝镜头方向(开/关)\n/空格键\n镜头位置打光\n/X键\n全体动作暂停\n/1键\n目标动作暂停\n/2键\n切换注视目标\n/Tab、Shift+Tab键\n调整构图\n/W、A、S、D、Q、E键\n重置构图\n/Z键",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/观景视角",
+    "cmd_en": "/idlingcamera",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/icam",
+    "desc": "/观景视角 目标名\n/idlingcamera、/icam\n切换为景观视角。\n目标名可以省略。在指定了目标名的情况下，摄像机镜头将会锁定该目标进行观景。如果指定的目标无法作为锁定目标进行观景，则会随机进行观景。\n>>功能内操作\n显示镜头设置窗口\n/R键、小键盘*/鼠标滚轮\n暂时停止或继续进行观景视角的切换\n/小键盘0/左键单击\n切换场景\n/Tab、Shift+Tab键\n调整构图\n/W、A、S、D、Q、E键\n重置构图\n/Z键\n>>示例\n/观景视角\n随机选择对象执行观景。\n/观景视角 <t>\n选择指定目标作为对象来执行观景。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/召唤兽投影",
+    "cmd_en": "/petmirage、/egimirage",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/召唤兽投影 召唤兽的名字 外貌\n/petmirage、/egimirage\n可以改变接下来召唤的召唤兽外貌。\n但在对战任务中无效。\n>>召唤兽的名字\n宝石兽\n迦楼罗之灵\n泰坦之灵\n伊弗利特之灵\n>>外貌\n宝石兽\n绿宝石兽\n黄宝石兽\n红宝石兽\n伊弗利特之灵\n泰坦之灵\n迦楼罗之灵\n省略外貌或在外貌处输入“撤除(clear)”\n召唤兽会恢复原状。\n>>示例\n/召唤兽投影 迦楼罗之灵 红宝石兽\n将迦楼罗之灵的外貌变成红宝石兽。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/召唤兽尺寸",
+    "cmd_en": "/petsize",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/召唤兽尺寸 召唤兽的名字 尺寸\n/petsize\n变更特定召唤兽的尺寸。\n本设定在对战区域内无效\n另外，本设定只对自身生效，无法改变他人的召唤兽尺寸。\n\n>>召唤兽的名字\n亚灵神巴哈姆特\n亚灵神不死鸟\n红宝石伊弗利特\n黄宝石泰坦\n绿宝石迦楼罗\n全部\n\n>>尺寸\n大\n将召唤兽的显示尺寸变为“大”。\n中\n将召唤兽的显示尺寸变为“中”。\n小\n将召唤兽的显示尺寸变为“小”\n无子命令\n　按“小→中→大”的顺序切换设置。当尺寸目标为全部时，返回错误。\n\n>>示例\n/召唤兽尺寸 亚灵神巴哈姆特 中\n　将亚灵神巴哈姆特的尺寸变为“中”。\n/召唤兽尺寸 全部 小\n　所有召唤兽的显示尺寸全部变为“小”。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/巴哈姆特尺寸",
+    "cmd_en": "/bahamutsize",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "此文本指令已统合至/petsize。\n想要变更亚灵神巴哈姆特的尺寸时，请按照下述执行。\n/petsize 亚灵神巴哈姆特 small",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/共同骑乘 队员编号 座位编号",
+    "cmd_en": "/ridepillion",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/共同骑乘 队员编号 座位编号\n/ridepillion\n搭乘所选队员的坐骑。\n>>座位编号（1-7）\n坐在指定座位编号的位置上。如果指定的座位已经填满，则会自动选择空着的座位。如果省略子命令，则会尝试坐在座位编号1的位置。\n>>示例\n/共同骑乘 <2> 1\n搭乘小队内编号为2的队员的坐骑，并坐在座位编号为1的位置。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/闹钟",
+    "cmd_en": "/alarm",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/闹钟 子命令\n/alarm\n设置闹钟。\n>>子命令\n\"闹钟名\" 时间类型(本、服、艾) 重复通知(重复) 时间(0000-2400) 提前(0-60)分钟提醒\n　设定在指定时间进行通知提醒的闹钟。\n　加上重复(rp)子命令时闹钟会每小时提醒一次。\n　重复与提前多少分钟提醒的子命令可以省略。\n撤除\n　将设定的闹钟全部删除。\n无子命令\n　打开闹钟窗口。\n>>时间类型\n本（lt） 本地时间\n服（st） 服务器时间\n艾（et） 艾欧泽亚时间\n>>示例\n/闹钟 \"集合时间\" 本 2000 10\n　设定一个名为集合时间的闹钟，在本地时间20点前提前10分钟提醒。\n/闹钟 \"休息\" 本 重复 30\n　设定一个名为休息的闹钟，在本地时间每个小时的30分时提醒。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/指定窗口",
+    "cmd_en": "/hud",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/指定窗口 窗口名 子命令\n/hud\n设置是否显示指定的界面窗口。\n>>窗口名\n目标情报(TargetInfo,target)\n目标情报：体力栏(TargetInfo:HP)\n目标情报：咏唱栏(TargetInfo:CastBar)\n目标情报：状态效果(TargetInfo:Status)\n焦点目标情报(FocusTarget,focus)\n小队列表(PartyList,party)\n敌对列表(EnemyList,enemy)\n角色参数(MyParam,param)\n导向地图(NaviMap,navi)\n快捷指令(MainCommand,main)\n基本情报(GeneralInfo,dtr)\n所持金币(CurrencyStatus,gil)\n背包缩略图(ItemSign,bag)\n任务情报(ToDoList,todo)\n道具帮助(ItemHelp,item)\n技能帮助(ActionHelp,action)\n极限槽(LimitGauge,limit)\n经验值栏(ExpBar,exp)\n状态效果(BuffDebuffStatus,buff)\n状态效果：强化状态(Status:Buff)\n状态效果：前置条件状态(Status:Trigger)\n状态效果：弱化状态(Status:Debuff)\n状态效果：其他状态(Status:Other)\n团队列表1(AllianceList1,alist1)\n团队列表2(AllianceList2,alist2)\n热键栏1～10(Hotbar1～10)\n特殊热键栏(HotbarEx)\n十字热键栏(Crosshotbar)\n主线向导(ScenarioGuide)\n纷争前线：战意槽(Frontline:BattleGauge)\n烈羽争锋：团队列表(RivalWings:Alliance)\n烈羽争锋：哥布林佣兵情报(RivalWings:Mercenary)\n群狼盛宴：我方情报(TheFeast:AllyInfo)\n群狼盛宴：敌方情报(TheFeast:EnemyInfo)\n>>子命令\n开(on)\n　开启指定窗口显示。\n关(off)\n　关闭指定窗口显示。\n无子命令\n　在开启和关闭之间切换。\n>>示例\n/指定窗口 基本情报\n令基本情报窗口在开启和关闭之间切换。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/重置界面",
+    "cmd_en": "/hudreset",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/重置界面\n/hudreset\n将当前的界面位置以及缩放率重置回初始状态。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/重置界面窗口",
+    "cmd_en": "/uireset",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/重置界面窗口\n/uireset\n将全部界面设置(1-4)和窗口的位置以及缩放率重置回初始状态。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/界面缩放",
+    "cmd_en": "/uiscale",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/界面缩放\n/uiscale\n更改当前界面窗口的缩放倍率。\n>>子命令\n数值\n以指定数值为百分比更改界面窗口的缩放倍率。可以指定的数值为60/80/90/100/110/120/140。\n重置(reset)\n将界面窗口的缩放倍率重置回初始状态。\n>>示例\n/界面缩放 140\n将界面窗口的缩放倍率变更为140%。\n/界面缩放 重置\n将界面窗口的缩放倍率重置为初始状态。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/职业量谱模式",
+    "cmd_en": "/jobhudmode",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/职业量谱模式 子命令\n/jobhudmode\n将当前职业的职业量谱显示模式改为“普通”或“简洁”。\n>>子命令\n1\n　切换当前职业第1个职业量谱的显示模式。\n2\n　切换当前职业第2个职业量谱的显示模式。\n无子命令\n　将当前职业的所有职业量谱统一成同一模式，或统一进行切换。\n>>示例\n/职业量谱模式 1\n　切换当前职业第1个职业量谱的显示模式。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/搜索命令",
+    "cmd_en": "/search",
+    "cmd_zh_abbr": "/搜索",
+    "cmd_en_abbr": "/sea",
+    "desc": "/搜索命令(/搜索) 条件\n/search、/sea\n以指定条件搜索玩家，并将结果显示在玩家搜索窗口中。\n>>条件(※可以指定多种条件，顺序不限。)\n【指定玩家姓名】\n名字(name) 玩家名\n　将指定的部分作为玩家的名字进行搜索。\n【指定在线状态】\n队长(leader)　离开(away)　忙碌(busy)　任务中(contents)　剧情中(event)　希望组队(lookingforparty)　接受镶嵌魔晶石请求(lookingformeld)　队员招募中(recruit)　新人(beginner)　指导者(mentor)　战斗指导者(pvementor)　制作采集指导者(tradementor)　对战指导者(pvpmentor)　角色扮演中(roleplay)　回归者(returner)\n【指定职业】\n剑术师(GLA)　格斗家(PGL)　斧术师(MRD)　枪术师(LNC)　弓箭手(ARC)　幻术师(CNJ)　双剑师(ROG)　咒术师(THM)　秘术师(ACN)　刻木匠(CRP)　锻铁匠(BSM)　铸甲匠(ARM)　雕金匠(GSM)　制革匠(LTW)　裁衣匠(WVR)　炼金术士(ALC)　烹调师(CUL)　采矿工(MIN)　园艺工(BTN)　捕鱼人(FSH)　骑士(PLD)　武僧(MNK)　战士(WAR)　龙骑士(DRG)　吟游诗人(BRD)　忍者(NIN)　白魔法师(WHM)　黑魔法师(BLM)　召唤师(SMN)　学者(SCH)　暗黑骑士(DRK)　占星术士(AST)　机工士(MCH)　武士(SAM)　赤魔法师(RDM)　青魔法师(BLU)　绝枪战士(GNB)　舞者(DNC) 贤者(SGE) 钐镰客(RPR)\n　※省略该条件会默认为以所有职业为对象进行搜索。\n【指定等级】\n数字\n　以指定数字等级作为条件进行搜索。\n数字-数字\n　将两个数字以半角横线进行连接，会以两个数字之间的等级范围内进行搜索。\n　※省略该条件会默认以全等级为范围进行搜索。\n【指定所属军队】\n黑涡团(Maelstrom)　双蛇党(Order of the Twin Adder)　恒辉队(Immortal Flames)\n　※指令中使用英文名字时需要用半角双引号将带有空格的军队名引用起来。\n【指定地点】\n全世界(world)　利姆萨·罗敏萨(Limsa Lominsa)　格里达尼亚(Gridania)　乌尔达哈(Ul‘dah)　伊修加德(Ishgard)　拉诺西亚(La Noscea)　黑衣森林(The Black Shroud)　萨纳兰(Thanalan)　库尔札斯(Coerthas)　摩杜纳(Mor Dhona)　阿巴拉提亚(Abalathia)　龙堡(Dravania)　基拉巴尼亚(Gyr Abania)　奥萨德(Othard)　诺弗兰特(Norvrandt) 萨维奈岛(Thavnair) 加雷马(Garlemald） 迷津(Labyrinthos) 其他区域\n　※省略该条件会默认为以全世界为对象进行搜索，使用英文名字时需要用半角双引号将带有空格的地名引用起来。\n>>示例\n/搜索命令 剑术师 20-30 拉诺西亚\n搜索当前位于拉诺西亚，剑术师等级在20～30范围内的玩家。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/希望组队",
+    "cmd_en": "/lookingforparty",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/lfp",
+    "desc": "/希望组队 子命令 职业\n/lookingforparty、/lfp\n将在线状态设置为“希望组队”，并附加能够组队的职业。\n>>职业(※可以指定多个职业，顺序不限)\n剑术师(GLA)　格斗家(PGL)　斧术师(MRD)　枪术师(LNC)　弓箭手(ARC)　双剑师(ROG)　幻术师(CNJ)　咒术师(THM)　秘术师(ACN)　刻木匠(CRP)　锻铁匠(BSM)　铸甲匠(ARM)　雕金匠(GSM)　制革匠(LTW)　裁衣匠(WVR)　炼金术士(ALC)　烹调师(CUL)　采矿工(MIN)　园艺工(BTN)　捕鱼人(FSH)　骑士(PLD)　武僧(MNK)　战士(WAR)　龙骑士(DRG)　吟游诗人(BRD)　忍者(NIN)　白魔法师(WHM)　黑魔法师(BLM)　召唤师(SMN)　学者(SCH)　暗黑骑士(DRK)　机工士(MCH)　占星术士(AST)　武士(SAM)　赤魔法师(RDM)　青魔法师(BLU)　绝枪战士(GNB)　舞者(DNC) 贤者(SGE) 钐镰客(RPR)\n※省略该条件会默认为指定当前职业。\n>>子命令\n开(on)\n　将状态改成“希望组队”。\n关(off)\n　将状态改回“在线”。\n无子命令\n　在“希望组队”与“在线”之间切换。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/接受镶嵌魔晶石请求",
+    "cmd_en": "/lookingformeld",
+    "cmd_zh_abbr": "/镶嵌魔晶石",
+    "cmd_en_abbr": "/lfm",
+    "desc": "/接受镶嵌魔晶石请求(/镶嵌魔晶石) 子命令\n/lookingformeld、/lfm\n将在线状态设置为“接受镶嵌魔晶石请求”。\n>>子命令\n开(on)\n　将状态改成“接受镶嵌魔晶石请求”。\n关(off)\n　将状态改回“在线”。\n无子命令\n　在“接受镶嵌魔晶石请求”与“在线”之间切换。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/个人签名",
+    "cmd_en": "/searchcomment",
+    "cmd_zh_abbr": "/签名",
+    "cmd_en_abbr": "/scomment",
+    "desc": "/个人签名(/签名) 文字内容\n/searchcomment、/scomment\n将指定文字内容设置成搜索玩家时的签名。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/忙碌",
+    "cmd_en": "/busy",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/忙碌 子命令\n/busy\n将在线状态设置为“忙碌”。\n>>子命令\n开(on)\n　将状态改成“忙碌”。\n关(off)\n　将状态改回“在线”。\n无子命令\n　在“忙碌”与“在线”之间切换。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/离开",
+    "cmd_en": "/away",
+    "cmd_zh_abbr": "/离",
+    "cmd_en_abbr": "/afk",
+    "desc": "/离开(/离) 子命令\n/away、/afk\n将在线状态设置为“离开”。\n>>子命令\n开(on)\n　将状态改成“离开”。\n关(off)\n　将状态改回“在线”。\n无子命令\n　在“离开”与“在线”之间切换。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/角色扮演中",
+    "cmd_en": "/roleplaying",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/角色扮演中 子命令\n/roleplaying\n将在线状态设置为“角色扮演中”。\n>>子命令\n开(on)\n　将状态改成“角色扮演中”。\n关(off)\n　将状态改回“在线”。\n无子命令\n　在“角色扮演中”与“在线”之间切换。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/随机数",
+    "cmd_en": "/random",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/随机数 上限值\n/random\n在0～999的数字中随机抽选出一个并显示在消息窗口中。在说话范围内的玩家都能够看到结果。\n>>上限值（2～999）\n在随机抽选数字时指定上限值。指定上限值后，数字将从（1～上限值）的范围内抽选。省略上限值时则从（0～999）的范围内进行抽选。\n>>示例\n/随机数\n在0～999的数字中随机抽选出一个并显示在消息窗口中。\n/随机数 22\n在0～22的数字中随机抽选出一个并显示在消息窗口中。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/掷骰",
+    "cmd_en": "/dice",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/掷骰 聊天频道 上限值\n/dice\n从0～999中随机抽取一个数字发送到当前或指定聊天频道。\n>>可指定频道：\n小队(party)\n团队(alliance)\n部队(freecompany)\n战队(pvpteam)\n通讯贝1-8(linkshell1-8)\n跨服贝1-8(cwlinkshell1-8)\n省略输入指定频道时，会在当前频道发言。\n※设成宏使用时必须指定聊天频道。\n\n>>上限值（2～999）\n在随机抽选数字时指定上限值。指定上限值后，数字将从（1～上限值）的范围内抽选。省略上限值时则从（0～999）的范围内进行抽选。\n>>示例\n/掷骰\n在当前聊天频道发送随机掷骰数字。\n/掷骰 16\n在当前聊天频道发送从1～16范围内的随机掷骰数字。\n/掷骰 跨服贝1\n在跨服通讯贝1发送随机掷骰数字。\n/掷骰 跨服贝1 16\n在跨服通讯贝1～16中发送随机掷骰数字。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/游戏时间",
+    "cmd_en": "/playtime",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ptime",
+    "desc": "/游戏时间\n/playtime、/ptime\n显示当前角色的累计游戏时间。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/标题画面",
+    "cmd_en": "/logout",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/标题画面\n/logout\n退出游戏，回到标题画面。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/关闭游戏",
+    "cmd_en": "/shutdown",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/关闭游戏\n/shutdown\n退出并结束游戏。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/新人状态",
+    "cmd_en": "/beginnerstatus",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/bstatus",
+    "desc": "/新人状态 子命令\n/beginnerstatus、/bstatus\n更改自己的新人在线状态。\n>>子命令\n开(on)\n　开启新人状态。\n关(off)\n　解除新人状态。\n无子命令\n　在开启与解除之间切换。\n>>示例\n/新人状态 开\n开启新人状态。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/解除回归者状态",
+    "cmd_en": "/returnerstatusoff",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/解除回归者状态\n/returnerstatusoff\n解除回归者状态。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/接受新人频道的邀请",
+    "cmd_en": "/beginnerchannelinvitation",
+    "cmd_zh_abbr": "/新人邀请",
+    "cmd_en_abbr": "/bchannelinvitation",
+    "desc": "/接受新人频道的邀请（/新人邀请） 子命令\n/beginnerchannelinvitation、/bchannelinvitation\n更改是否接受新人频道的邀请。\n>>子命令\n开(on)\n　接受邀请。\n关(off)\n　自动拒绝邀请。\n无子命令\n　在接受和拒绝之间切换。\n\n>>示例\n/接受新人频道的邀请 开\n　接受邀请。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/退出新人频道",
+    "cmd_en": "/beginnerchannelleave",
+    "cmd_zh_abbr": "/退新",
+    "cmd_en_abbr": "/bchannelleave",
+    "desc": "/退出新人频道（/退新）\n/beginnerchannelleave、/bchannelleave\n从新人频道中退出。\n新人及回归者专用。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/加入新人频道",
+    "cmd_en": "/beginnerchannel",
+    "cmd_zh_abbr": "/bchannel",
+    "cmd_en_abbr": "/bchannel",
+    "desc": "/加入新人频道 子命令\n/beginnerchannel、/bchannel\n设置指导者是否自动加入新人频道。\n>>子命令\n开(on)\n　开启自动加入新人频道的设置，并加入新人频道。\n关(off)\n　解除自动加入新人频道的设置，如果已经加入了新人频道则会退出。\n无子命令\n　在开启与解除之间切换。\n>>示例\n/加入新人频道 开\n开启自动加入新人频道的设置。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/决斗申请拦截",
+    "cmd_en": "/duelswitch",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/决斗申请拦截 子命令\n/duelswitch\n更改是否接受决斗申请的设置。\n>>子命令\n开(on)\n强制拒绝决斗申请。\n关(off)\n接受决斗申请。\n无子命令\n在拒绝和接受之间切换。\n>>示例\n/决斗申请拦截 开\n强制拒绝决斗申请。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/魔素板顺时旋转",
+    "cmd_en": "/magiaright",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/魔素板顺时旋转\n/magiaright\n顺时针转动魔素板。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/魔素板逆时旋转",
+    "cmd_en": "/magialeft",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/魔素板逆时旋转\n/magialeft\n逆时针转动魔素板。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/魔素板攻势",
+    "cmd_en": "/magiaattack",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/魔素板攻势 代名词\n/magiaattack\n将魔素板的属性切换为攻击时克制当前目标的属性。代名词可省略。\n>>示例\n/魔素板攻势 <目标>\n将魔素板的属性切换为攻击时克制当前目标的属性。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/魔素板守势",
+    "cmd_en": "/magiadefense",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/魔素板守势 代名词\n/magiadefense\n将魔素板的属性切换为与当前目标相同的属性利于防御。代名词可省略。\n>>示例\n/魔素板守势 <目标>\n将魔素板的属性切换为与当前目标相同的属性。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/魔素板自动",
+    "cmd_en": "/magiaauto",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/魔素板自动 子命令\n/magiaauto\n修改魔素板的自动调整设定。启用时会在选中目标后自动切换魔素属性。\n>>子命令\n攻势(atk)\n向利于攻击的属性自动调整。\n守势(def)\n向利于防御的属性自动调整。\n关(off)\n关闭自动调整功能。\n>>示例\n/魔素板自动 攻势\n选中敌人时魔素板会自动切换到利于攻击的属性。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/副本区检查",
+    "cmd_en": "/instance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/副本区检查\n/instance\n检查当前所在地区是否为副本区域，并在消息窗口中显示结果。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/版本更新笔记",
+    "cmd_en": "/patchnote",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/版本更新笔记\n/patchnote\n打开官方网站中的版本更新笔记页面。\n此时将启动浏览器。",
+    "type": "其他功能"
+  },
+  {
+    "cmd_zh": "/等待",
+    "cmd_en": "/wait",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/等待 等待时间\n/wait\n在宏指令中用来调整时间的命令。\n等待时间设为“1”相当于1秒。\n等待时间最多可以设置为60，超过60会按60计算。",
+    "type": "宏专用"
+  },
+  {
+    "cmd_zh": "/宏图标",
+    "cmd_en": "/macroicon",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/micon",
+    "desc": "/宏图标 图标名 分类名\n/macroicon、/micon\n用户宏专用。在热键栏上显示指定图标名的图标，在同一个用户宏命令内只能生效一次。\n>>分类名\n技能(action)\n　…将技能名指定到图标名上，可以显示出该技能的图标及技能的复唱时间、所需魔力等情报。\n青魔法技能(blueaction)\n　…将技能名指定到图标名上，可以显示出该技能的图标及技能的复唱时间、所需魔力等情报。\n对战技能(pvpaction)\n　…将对战技能名指定到图标名上，可以显示出该技能的图标及技能的复唱时间、所需魔力等情报。\n共通技能(general)\n　…将共通技能名指定到图标名上，可以显示出该技能的图标及技能的复唱时间。\n情感动作(emote)\n　…将情感动作名指定到图标名上，可以显示出该情感动作的图标。\n搭档(buddy) 搭档名\n　…将搭档技能名指定到图标名上，可以显示出该技能的图标。搭档名可以省略。\n召唤兽(pet)\n　…将召唤兽技能名指定到图标名上，可以显示出该技能的图标。\n宠物(minion)\n　…将宠物名指定到图标名上，可以显示出该宠物的图标。\n坐骑(mount)\n　…将坐骑名指定到图标名上，可以显示出该坐骑的图标。\n道具(item)\n　…将道具名指定到图标名上，可以显示出该道具的图标。\n标记(marking)\n　…将标记名指定到图标名上，可以显示出该标记的图标。\n场景标记(waymark)\n　…将场景标记名指定到图标名上，可以显示出该场景标记的图标。\n套装(gearset)\n　…将套装编号指定到图标名上，可以显示出该套装的图标。\n职业(classjob)\n　…将职业名指定到图标名上，可以显示出该职业的图标。\n快捷发言(quickchat)\n　…将快捷发言名指定到图标名上，可以显示出该快捷发言的图标。\n※省略分类\n　…会按照技能名来处理。",
+    "type": "宏专用"
+  },
+  {
+    "cmd_zh": "/锁定宏指令",
+    "cmd_en": "/macrolock",
+    "cmd_zh_abbr": "/锁宏",
+    "cmd_en_abbr": "/mlock",
+    "desc": "/锁定宏指令(/锁宏)\n/macrolock、/mlock\n宏指令专用，使用该命令之后，在同一个宏内的所有指令完成之前不允许执行其他宏指令。",
+    "type": "宏专用"
+  },
+  {
+    "cmd_zh": "/宏错误提示",
+    "cmd_en": "/macroerror",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/merror",
+    "desc": "/宏错误提示 子命令\n/macroerror、/merror\n宏命令专用。设置是否显示在运行宏命令的过程中出现的错误提示。宏命令运行前默认为显示状态。宏命令结束后，即使之前设置成了不显示状态，也会自动回到默认的显示状态。\n>>子命令\n开(on)\n　显示错误提示。\n关(off)\n　不显示错误提示。\n无子命令\n　在显示与不显示之间切换。",
+    "type": "宏专用"
+  },
+  {
+    "cmd_zh": "/取消宏",
+    "cmd_en": "/macrocancel",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/mcancel",
+    "desc": "/取消宏\n/macrocancel、/mcancel\n只能在对话栏中输入。停止正在执行的宏指令。",
+    "type": "宏专用"
+  },
+  {
+    "cmd_zh": "/自动锁定",
+    "cmd_en": "/autolockon",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/自动锁定 子命令\n/autolockon\n开启“开始自动攻击时自动锁定”功能。\n>>子命令\n开(on)\n　开启自动锁定。\n关(off)\n　关闭自动锁定。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/自动转向目标",
+    "cmd_en": "/autofacetarget",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/自动转向目标 子命令\n/autofacetarget\n开启发动技能时转身面向目标的功能。\n>>子命令\n开(on)\n　开启自动转向目标。\n关(off)\n　关闭自动转向目标。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/目标环",
+    "cmd_en": "/targetring",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/目标环 子命令\n/targetring\n显示目标环。\n>>子命令\n开(on)\n　开启目标环显示。\n关(off)\n　关闭目标环显示。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/目标线",
+    "cmd_en": "/targetline",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/目标线 子命令\n/targetline\n显示目标线。\n>>子命令\n开(on)\n　开启目标线显示。\n关(off)\n　关闭目标线显示。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/联系线",
+    "cmd_en": "/linkline",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/联系线 子命令\n/linkline\n显示联系线。\n>>子命令\n开(on)\n　开启联系线显示。\n关(off)\n　关闭联系线显示。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/自动选中",
+    "cmd_en": "/autotarget",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/自动选中 子命令\n/autotarget\n开启“未选中目标时自动选中”的功能。\n>>子命令\n开(on)\n　开启自动选中功能。\n关(off)\n　关闭自动选中功能。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/显示头部装备",
+    "cmd_en": "/displayhead",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/显示头部装备 子命令\n/displayhead\n显示自己的头部装备。\n>>子命令\n开(on)\n　开启头部装备显示。\n关(off)\n　关闭头部装备显示。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/显示武器",
+    "cmd_en": "/displayarms",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/显示武器 子命令\n/displayarms\n收回武器时显示自己的主手装备及副手装备。\n>>子命令\n开(on)\n　开启武器显示。\n关(off)\n　关闭武器显示。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/自动收回武器",
+    "cmd_en": "/autosheathe",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ashathe",
+    "desc": "/自动收回武器 子命令\n/autosheathe、/ashathe\n开启自动收回武器的功能。\n>>子命令\n开(on)\n　开启武器自动收回功能。\n关(off)\n　关闭武器自动收回功能。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/选中自己",
+    "cmd_en": "/targetself",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/选中自己 子命令\n/targetself\n开启可以选中自己作为目标的功能。\n>>子命令\n开(on)\n　开启选中自己功能。\n关(off)\n　关闭选中自己功能。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/场景点击",
+    "cmd_en": "/groundclick",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/场景点击 子命令\n/groundclick\n开启点击场景取消选中目标的功能。\n>>子命令\n开(on)\n　开启。\n关(off)\n　关闭。\n无子命令\n　在开启和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/消息窗口",
+    "cmd_en": "/chatlog",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/消息窗口 子命令\n/chatlog\n对消息窗口进行设置。\n>>子命令\n字体(fontsize) 数值\n　调整字体大小。\n时间(time) 开(on)\n　在消息栏中开启时间显示。\n时间(time) 关(off)\n　在消息栏中关闭时间显示。\n时间(time)\n　在消息栏中切换是否显示时间。\n字体(fontsize) 消息栏编号 数值\n　调整指定编号消息栏中的字体大小。\n时间(time) 消息栏编号 开(on)\n　在指定编号消息栏中开启时间显示。\n时间(time) 消息栏编号 关(off)\n　在指定编号消息栏中关闭时间显示。\n时间(time) 消息栏编号\n　在指定编号消息栏中切换是否显示时间。\n时间(time) 12\n　以12小时制显示时间。\n时间(time) 24\n　以24小时制显示时间。\n时间(time) 本地(local)\n　将显示时间切换到本地系统基准。\n时间(time) 服务器(server)\n　将显示时间切换到服务器系统基准。\n提示音(call) 聊天频道名 开(on)\n　收到指定聊天频道的消息时开启音效提示，省略聊天频道名会默认为悄悄话频道。\n提示音(call) 聊天频道名 关(off)\n　收到指定聊天频道的消息时关闭音效提示，省略聊天频道名会默认为悄悄话频道。\n提示音(call) 聊天频道名 音效编号\n　收到指定聊天频道的消息时响起指定编号的音效，省略聊天频道名会默认为悄悄话频道。\n提示音(call) 聊天频道名\n　切换收到指定聊天频道的消息时是否开启音效，省略聊天频道名会默认为悄悄话频道。\n【指定聊天频道名】\n他人对自己做出的情感动作(emote)　悄悄话(tell)　小队(party)　部队(freecompany)　团队(alliance)　通讯贝1～8(linkshell1～8) 新人(beginner)　战队(pvpteam)　跨服贝1～8(cwlinkshell1～8)",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/战斗特效",
+    "cmd_en": "/battleeffect",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/战斗特效 目标 类型\n/battleeffect\n对角色设置中的“战斗特效”进行设置。\n>>目标\n自己(self)\n　以“自己”为目标。\n小队(party)\n　以“小队”为目标。\n他人(other)\n　以“他人”为目标。\n敌人(enemypc)\n　以“对战时的敌方玩家”为目标。\n\n>>类型\n全部(all)\n　设置为“完全显示”。\n简单(simple)\n　设置为“简单显示”。\n关(off)\n　设置为“不显示”。\n无子命令\n　在“完全显示”和“不显示”之间切换。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/技能错误",
+    "cmd_en": "/actionerror",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/aerror",
+    "desc": "/技能错误 子命令\n/actionerror、/aerror\n开启显示发动技能时屏幕中的错误提示。\n>>子命令\n开(on)\n　显示错误提示。\n关(off)\n　关闭错误提示。\n无子命令\n　在显示和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/复唱错误",
+    "cmd_en": "/recasterror",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/rerror",
+    "desc": "/复唱错误 子命令\n/recasterror、/rerror\n开启显示复唱中无法使用技能的错误提示。\n>>子命令\n开(on)\n　显示错误提示。\n关(off)\n　关闭错误提示。\n无子命令\n　在显示和关闭之间切换",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/第三人称视角俯视角度",
+    "cmd_en": "/tiltcamera",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/第三人称视角俯视角度 子命令\n/tiltcamera\n改变角色设置中第三人称视角俯视角度的数值。\n>>子命令\n数值(0-100)\n　将第三人称视角俯视角度设为指定的数值。\n>>示例\n/第三人称视角俯视角度 50\n　将第三人称视角俯视角度设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/名牌显示",
+    "cmd_en": "/nameplatedisp",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/名牌显示 对象 设置代号\n/nameplatedisp\n进行玩家名牌显示设置。\n>>对象\n全部(all)\n所有玩家为对象\n自己(self)\n自身为对象\n小队(party)\n小队成员为对象\n团队(alliance)\n团队成员为对象\n他人(other)\n其他人为对象\n好友(friend)\n好友为对象\n群狼盛宴(feast)\n群狼盛宴中的敌人为对象\n\n>>设置代号1-4\n1:一直显示\n2:战斗时显示\n3:选为目标时显示\n4:不显示\n\n>>示例\n/名牌显示 全部 4\n将所有玩家的名牌显示设置改为不显示。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/图像设置预设",
+    "cmd_en": "/graphicpresets",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/gpreset",
+    "desc": "/图像设置预设 预设组编号\n/graphicpresets、/gpreset\n将图像设置切换为预设设置。\n>>预设组编号（1-5）\n1：标准品质（笔记本电脑）\n2：标准品质（台式电脑）\n3：高品质（笔记本电脑）\n4：高品质（台式电脑）\n5：最高品质\n示例\n/图像设置预设 1\n将图像设置切换为“标准品质（笔记本电脑）”。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/整体音量",
+    "cmd_en": "/mastervolume",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/整体音量 子命令\n/mastervolume\n改变整体音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n无子命令\n　在静音与静音解除之间切换。\n>>示例\n/整体音量 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/背景音乐",
+    "cmd_en": "/bgm",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/背景音乐 子命令\n/bgm\n改变背景音乐的音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n无子命令\n　在静音与静音解除之间切换。\n>>示例\n/背景音乐 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/音效",
+    "cmd_en": "/soundeffects",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/音效 子命令\n/soundeffects\n改变音效的音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n无子命令\n　在静音与静音解除之间切换。\n>>示例\n/音效 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/语音",
+    "cmd_en": "/voice",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/语音 子命令\n/voice\n改变语音的音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n无子命令\n　在静音与静音解除之间切换。\n>>示例\n/语音 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/系统音",
+    "cmd_en": "/systemsounds",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/系统音 子命令\n/systemsounds\n改变系统音的音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n无子命令\n　在静音与静音解除之间切换。\n>>示例\n/系统音 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/环境音",
+    "cmd_en": "/ambientsounds",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/环境音 子命令\n/ambientsounds\n改变环境音的音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n无子命令\n　在静音与静音解除之间切换。\n>>示例\n/环境音 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/自身音效",
+    "cmd_en": "/soundeffectsself",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/自身音效 子命令\n/soundeffectsself\n改变自身音效的音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n>>示例\n/自身音效 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/小队成员音效",
+    "cmd_en": "/soundeffectsparty",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/小队成员音效 子命令\n/soundeffectsparty\n改变小队成员音效的音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n>>示例\n/小队成员音效 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/他人音效",
+    "cmd_en": "/soundeffectsother",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/他人音效 子命令\n/soundeffectsother\n改变他人音效的音量。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n>>示例\n/他人音效 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/演奏音量",
+    "cmd_en": "/performsounds",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/演奏音量 子命令\n/performsounds\n设置乐器演奏的音量。\n>>子命令\n数值(0-100)\n将音量设为指定数值。\n无子命令\n在静音与静音解除之间切换。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/扬声器系统音",
+    "cmd_en": "/systemsoundsspeaker",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/扬声器系统音 子命令\n/systemsoundsspeaker\n改变无线手柄扬声器系统音的音量。\n※PlayStation®4/PlayStation®5/Windows®(DX11)版专用。\n>>子命令\n数值(0-100)\n　将音量设为指定的数值。\n无子命令\n　在静音与静音解除之间切换。\n>>示例\n/扬声器系统音 50\n　将音量设为50。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/坐骑音乐",
+    "cmd_en": "/mountbgm",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/坐骑音乐 子命令\n/mountbgm\n设置系统设置中的“骑乘状态下播放音乐”。\n>>子命令\n开(on)\n播放坐骑自带的背景音乐。\n关(off)\n不播放坐骑自带的背景音乐。\n无子命令\n在开启与关闭之间切换。",
+    "type": "设置"
+  },
+  {
+    "cmd_zh": "/感情表现",
+    "cmd_en": "/emote",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/em",
+    "desc": "/感情表现 发言内容\n/emote、/em\n在本人名字后面连接发言内容作为感情表现，并发送给说话范围内的玩家。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/惊讶",
+    "cmd_en": "/surprised",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/惊讶 子命令\n/surprised\n做出惊讶的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/不满",
+    "cmd_en": "/angry",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/不满 子命令\n/angry\n做出不满的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/愤怒",
+    "cmd_en": "/furious",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/愤怒 子命令\n/furious\n做出愤怒的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/害羞",
+    "cmd_en": "/blush",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/害羞 子命令\n/blush\n做出害羞的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/行礼",
+    "cmd_en": "/bow",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/行礼 子命令\n/bow\n做出行礼的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/加油",
+    "cmd_en": "/cheer",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/加油 子命令\n/cheer\n做出加油的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/拍手",
+    "cmd_en": "/clap",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/拍手 子命令\n/clap\n做出拍手的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/招手",
+    "cmd_en": "/beckon",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/招手 子命令\n/beckon\n做出招手的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/安慰",
+    "cmd_en": "/comfort",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/安慰 子命令\n/comfort\n做出安慰的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/哭泣",
+    "cmd_en": "/cry",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/哭泣 子命令\n/cry\n做出哭泣的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/跳舞",
+    "cmd_en": "/dance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/跳舞 子命令\n/dance\n做出跳舞的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/质疑",
+    "cmd_en": "/doubt",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/质疑 子命令\n/doubt\n做出质疑的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/打盹",
+    "cmd_en": "/doze",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/打盹 子命令\n/doze\n做出打盹的动作。在靠近睡床的时候会躺在床上。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/后悔",
+    "cmd_en": "/fume",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/后悔 子命令\n/fume\n做出后悔的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/道别",
+    "cmd_en": "/goodbye",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/道别 子命令\n/goodbye\n做出道别的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/挥手",
+    "cmd_en": "/wave",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/挥手 子命令\n/wave\n做出挥手的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/莫名",
+    "cmd_en": "/huh",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/莫名 子命令\n/huh\n做出莫名的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/高兴",
+    "cmd_en": "/joy",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/高兴 子命令\n/joy\n做出高兴的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/下跪",
+    "cmd_en": "/kneel",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/下跪 子命令\n/kneel\n做出下跪的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/轻笑",
+    "cmd_en": "/chuckle",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/轻笑 子命令\n/chuckle\n做出轻笑的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/大笑",
+    "cmd_en": "/laugh",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/大笑 子命令\n/laugh\n做出大笑的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/张望",
+    "cmd_en": "/lookout",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/张望 子命令\n/lookout\n做出张望的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/展示",
+    "cmd_en": "/me",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/展示 子命令\n/me\n做出展示的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/摇头",
+    "cmd_en": "/no",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/摇头 子命令\n/no\n做出摇头的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/否定",
+    "cmd_en": "/deny",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/否定 子命令\n/deny\n做出否定的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/慌乱",
+    "cmd_en": "/panic",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/慌乱 子命令\n/panic\n做出慌乱的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/指向",
+    "cmd_en": "/point",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/指向 子命令\n/point\n做出指向的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/戳指",
+    "cmd_en": "/poke",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/戳指 子命令\n/poke\n做出戳指的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/称赞",
+    "cmd_en": "/congratulate",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/称赞 子命令\n/congratulate\n做出称赞的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/激励",
+    "cmd_en": "/psych",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/激励 子命令\n/psych\n做出激励的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/敬礼",
+    "cmd_en": "/salute",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/敬礼 子命令\n/salute\n做出敬礼的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/震惊",
+    "cmd_en": "/shocked",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/震惊 子命令\n/shocked\n做出震惊的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/耸肩",
+    "cmd_en": "/shrug",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/耸肩 子命令\n/shrug\n做出耸肩的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/鼓励",
+    "cmd_en": "/rally",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/鼓励 子命令\n/rally\n做出鼓励的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/安抚",
+    "cmd_en": "/soothe",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/安抚 子命令\n/soothe\n做出安慰的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/迷糊",
+    "cmd_en": "/stagger",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/迷糊 子命令\n/stagger\n做出迷糊的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/伸展",
+    "cmd_en": "/stretch",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/伸展 子命令\n/stretch\n做出伸展的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/愠怒",
+    "cmd_en": "/sulk",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/愠怒 子命令\n/sulk\n做出愠怒的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/思考",
+    "cmd_en": "/think",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/思考 子命令\n/think\n做出思考的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/失望",
+    "cmd_en": "/upset",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/失望 子命令\n/upset\n做出失望的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/欢迎",
+    "cmd_en": "/welcome",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/欢迎 子命令\n/welcome\n做出欢迎的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/点头",
+    "cmd_en": "/yes",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/点头 子命令\n/yes\n做出点头的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/肯定",
+    "cmd_en": "/thumbsup",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/肯定 子命令\n/thumbsup\n做出肯定的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/自视",
+    "cmd_en": "/examineself",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/自视 子命令\n/examineself\n做出自视的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/摆造型",
+    "cmd_en": "/pose",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/摆造型 子命令\n/pose\n做出摆造型的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/飞吻",
+    "cmd_en": "/blowkiss",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/飞吻 子命令\n/blowkiss\n做出飞吻的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/下跪认错",
+    "cmd_en": "/grovel",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/下跪认错 子命令\n/grovel\n做出下跪认错的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/欣喜若狂",
+    "cmd_en": "/happy",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/欣喜若狂 子命令\n/happy\n做出欣喜若狂的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/大失所望",
+    "cmd_en": "/disappointed",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/大失所望 子命令\n/disappointed\n做出大失所望的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/坐下",
+    "cmd_en": "/lounge",
+    "cmd_zh_abbr": "/坐下",
+    "cmd_en_abbr": "/sit",
+    "desc": "/坐下\n/sit、/lounge\n坐到地面上或身边其他可以坐在上面的场所上。处于坐下状态时输入该指令会站起身。\n在坐下状态中可以使用部分情感动作。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/引用",
+    "cmd_en": "/airquotes",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/引用\n/airquotes\n做出引用的动作。用两只手表示出引号，一般指当前发言内容为引用自其他人，不过多数情况下有讽刺的意思。\n※该情感动作只有动作，没有文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/军礼",
+    "cmd_en": "/gcsalute",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/军礼 子命令\n/gcsalute\n以黑涡团的标准行军礼。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/军礼",
+    "cmd_en": "/gcsalute",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/军礼 子命令\n/gcsalute\n以双蛇党的标准行军礼。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/军礼",
+    "cmd_en": "/gcsalute",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/军礼 子命令\n/gcsalute\n以恒辉队的标准行军礼。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/祈祷",
+    "cmd_en": "/pray",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/祈祷 子命令\n/pray\n做出祈祷的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/帝国式军礼",
+    "cmd_en": "/imperialsalute",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/帝国式军礼 子命令\n/imperialsalute\n以帝国的标准行军礼。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/平常",
+    "cmd_en": "/straightface",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/straight",
+    "desc": "/平常 子命令\n/straightface\n表现出面无表情的样子。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/微笑",
+    "cmd_en": "/smile",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/微笑 子命令\n/smile\n脸上浮出微笑。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/笑颜",
+    "cmd_en": "/grin",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/笑颜 子命令\n/grin\n脸上露出笑颜。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/自信",
+    "cmd_en": "/smirk",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/自信 子命令\n/smirk\n做出自信的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/无畏",
+    "cmd_en": "/taunt",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/无畏 子命令\n/taunt\n做出无所畏惧的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/闭目",
+    "cmd_en": "/shuteyes",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/shut",
+    "desc": "/闭目 子命令\n/shuteyes\n闭上眼睛。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/悲伤",
+    "cmd_en": "/sad",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/悲伤 子命令\n/sad\n做出悲伤的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/恐怖",
+    "cmd_en": "/scared",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/fear",
+    "desc": "/恐怖 子命令\n/scared\n做出感到害怕的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/意外",
+    "cmd_en": "/amazed",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/awe",
+    "desc": "/意外 子命令\n/amazed\n做出意外的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/痛苦",
+    "cmd_en": "/ouch",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ow",
+    "desc": "/痛苦 子命令\n/ouch\n做出痛苦的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/反感",
+    "cmd_en": "/annoyed",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/annoy",
+    "desc": "/反感 子命令\n/annoyed\n做出不耐烦的反感表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/吃惊",
+    "cmd_en": "/alert",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/吃惊 子命令\n/alert\n做出突然发现什么情况的吃惊表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/担心",
+    "cmd_en": "/worried",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/worry",
+    "desc": "/担心 子命令\n/worried\n做出很担心的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/军礼",
+    "cmd_en": "/gcsalute",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/军礼 子命令\n/gcsalute\n以所属大国防联军的标准行军礼。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/投掷",
+    "cmd_en": "/throw",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/投掷 子命令\n/throw\n做出投掷的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/改变姿势",
+    "cmd_en": "/changepose",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/cpose",
+    "desc": "/改变姿势\n/changepose、/cpose\n改变当前的姿势。\n※该指令只会做出动作，不会显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/踢踏舞",
+    "cmd_en": "/stepdance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/sdance",
+    "desc": "/踢踏舞 子命令\n/stepdance、/sdance\n跳起踢踏舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/丰饶之舞",
+    "cmd_en": "/harvestdance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/hdance",
+    "desc": "/丰饶之舞 子命令\n/harvestdance、/hdance\n跳起丰饶之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/宫廷之舞",
+    "cmd_en": "/balldance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/bdance",
+    "desc": "/宫廷之舞 子命令\n/balldance、/bdance\n跳起宫廷之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/绅士之舞",
+    "cmd_en": "/mandervilledance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/mdance",
+    "desc": "/绅士之舞 子命令\n/mandervilledance、/mdance\n跳起绅士之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/抚摸",
+    "cmd_en": "/stroke",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/抚摸 子命令\n/stroke\n做出抚摸的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/递交",
+    "cmd_en": "/handover",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/递交 子命令\n/handover\n做出递交的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/火盆舞",
+    "cmd_en": "/bombdance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/火盆舞 子命令\n/bombdance\n跳起火盆舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/胜利欢呼",
+    "cmd_en": "/hurray",
+    "cmd_zh_abbr": "/欢呼",
+    "cmd_en_abbr": "",
+    "desc": "/胜利欢呼(欢呼) 子命令\n/hurray\n做出胜利的欢呼动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/甩巴掌",
+    "cmd_en": "/slap",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/甩巴掌 子命令\n/slap\n做出甩巴掌的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/拥抱",
+    "cmd_en": "/hug",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/拥抱 子命令\n/hug\n做出拥抱对方的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/深情拥抱",
+    "cmd_en": "/embrace",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/深情拥抱 子命令\n/embrace\n做出深情拥抱对方的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/绅士风度",
+    "cmd_en": "/hildibrand",
+    "cmd_zh_abbr": "/绅士",
+    "cmd_en_abbr": "/hildy",
+    "desc": "/绅士风度(/绅士) 子命令\n/hildibrand、/hildy\n做出最具有绅士风度的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/对拳",
+    "cmd_en": "/fistbump",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/fist",
+    "desc": "/对拳 子命令\n/fistbump、/fist\n做出对拳的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/萨维奈舞",
+    "cmd_en": "/thavdance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/tdance",
+    "desc": "/萨维奈舞 子命令\n/thavdance、/tdance\n跳起萨维奈舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/黄金之舞",
+    "cmd_en": "/golddance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/gdance",
+    "desc": "/黄金之舞 子命令\n/golddance、/gdance\n跳起黄金之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/太阳之舞",
+    "cmd_en": "/sundance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/太阳之舞 子命令\n/sundance\n跳起太阳之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/准备战斗",
+    "cmd_en": "/battlestance",
+    "cmd_zh_abbr": "/备战",
+    "cmd_en_abbr": "/bstance",
+    "desc": "/准备战斗(/备战) 子命令\n/battlestance、/bstance\n做出战斗前的准备动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/欢呼胜利",
+    "cmd_en": "/victorypose",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/vpose",
+    "desc": "/欢呼胜利 子命令\n/victorypose、/vpose\n做出胜利时欢呼的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/后空翻",
+    "cmd_en": "/backflip",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/bflip",
+    "desc": "/后空翻 子命令\n/backflip、/bflip\n做出后空翻的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/抱拳礼",
+    "cmd_en": "/easterngreeting",
+    "cmd_zh_abbr": "/抱拳",
+    "cmd_en_abbr": "/egreeting",
+    "desc": "/抱拳礼(/抱拳) 子命令\n/easterngreeting、/egreeting\n做出行抱拳礼的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/灵光一现",
+    "cmd_en": "/eureka",
+    "cmd_zh_abbr": "/灵光",
+    "cmd_en_abbr": "",
+    "desc": "/灵光一现(/灵光) 子命令\n/eureka\n做出灵光一现的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/莫古莫古舞",
+    "cmd_en": "/mogdance",
+    "cmd_zh_abbr": "/莫古舞",
+    "cmd_en_abbr": "",
+    "desc": "/莫古莫古舞(/莫古舞) 子命令\n/mogdance\n跳起莫古莫古舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/太棒了",
+    "cmd_en": "/haurchefant",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/hknight",
+    "desc": "/太棒了 子命令\n/haurchefant、/hknight\n做出“太棒了！”的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/热身",
+    "cmd_en": "/easternstretch",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/estretch",
+    "desc": "/热身 子命令\n/easternstretch、/estretch\n做出热身的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/东方传统舞蹈",
+    "cmd_en": "/easterndance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/edance",
+    "desc": "/东方传统舞蹈 子命令\n/easterndance、/edance\n跳起东方传统舞蹈。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/战队演武正红一式",
+    "cmd_en": "/rangerpose1r",
+    "cmd_zh_abbr": "/正红一式",
+    "cmd_en_abbr": "/rpose1r",
+    "desc": "/战队演武正红一式(/正红一式) 子命令\n/rangerpose1r、/rpose1r\n摆出战队演武正红一式造型。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/战队演武正黑二式",
+    "cmd_en": "/rangerpose2r",
+    "cmd_zh_abbr": "/正黑二式",
+    "cmd_en_abbr": "/rpose2r",
+    "desc": "/战队演武正黑二式(/正黑二式) 子命令\n/rangerpose2r、/rpose2r\n摆出战队演武正黑二式造型。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/战队演武正黄三式",
+    "cmd_en": "/rangerpose3r",
+    "cmd_zh_abbr": "/正黄三式",
+    "cmd_en_abbr": "/rpose3r",
+    "desc": "/战队演武正黄三式(/正黄三式) 子命令\n/rangerpose3r、/rpose3r\n摆出战队演武正黄三式造型。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/飞眼",
+    "cmd_en": "/wink",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/飞眼 子命令\n/wink\n抛出飞眼。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/战队演武逆红一式",
+    "cmd_en": "/rangerpose1l",
+    "cmd_zh_abbr": "/逆红一式",
+    "cmd_en_abbr": "/rpose1l",
+    "desc": "/战队演武逆红一式(/逆红一式) 子命令\n/rangerpose1l、/rpose1l\n摆出战队演武逆红一式造型。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/战队演武逆黑二式",
+    "cmd_en": "/rangerpose2l",
+    "cmd_zh_abbr": "/逆黑二式",
+    "cmd_en_abbr": "/rpose2l",
+    "desc": "/战队演武逆黑二式(/逆黑二式) 子命令\n/rangerpose2l、/rpose2l\n摆出战队演武逆黑二式造型。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/战队演武逆黄三式",
+    "cmd_en": "/rangerpose3l",
+    "cmd_zh_abbr": "/逆黄三式",
+    "cmd_en_abbr": "/rpose3l",
+    "desc": "/战队演武逆黄三式(/逆黄三式) 子命令\n/rangerpose3l、/rpose3l\n摆出战队演武逆黄三式造型。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/捂脸",
+    "cmd_en": "/facepalm",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/捂脸 子命令\n/facepalm\n做出捂脸的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/斩铁剑",
+    "cmd_en": "/zantetsuken",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ztk",
+    "desc": "/斩铁剑 子命令\n/zantetsuken、/ztk\n劈斩空间。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/肉体之美",
+    "cmd_en": "/flex",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/肉体之美 子命令\n/flex\n展现肉体之美。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/默哀",
+    "cmd_en": "/respect",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/默哀 子命令\n/respect\n做出默哀的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/阴险",
+    "cmd_en": "/sneer",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/阴险 子命令\n/sneer\n做出阴险的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/撒娇",
+    "cmd_en": "/prettyplease",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/pplease",
+    "desc": "/撒娇 子命令\n/prettyplease、/pplease\n做出撒娇的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/装死",
+    "cmd_en": "/playdead",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/pdead",
+    "desc": "/装死 子命令\n/playdead、/pdead\n在地上装死。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/日月之舞",
+    "cmd_en": "/moonlift",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/日月之舞 子命令\n/moonlift\n跳起日月之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/表达爱意",
+    "cmd_en": "/dote",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/表达爱意 子命令\n/dote\n表达自己的爱意。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/托眼镜",
+    "cmd_en": "/spectacles",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/托眼镜 子命令\n/spectacles\n调整自己的眼镜。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/小黄莺之舞",
+    "cmd_en": "/songbird",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/小黄莺之舞 子命令\n/songbird\n模仿小黄莺跳舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/浮水",
+    "cmd_en": "/waterfloat",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/浮水\n/waterfloat\n浮在水面上。\n※该指令只会做出动作，不会显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/水中翻跟头",
+    "cmd_en": "/waterflip",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/水中翻跟头\n/waterflip\n在水里翻跟头。\n※该指令只会做出动作，不会显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/嘟嘴",
+    "cmd_en": "/puckerup",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/嘟嘴 子命令\n/puckerup\n把嘴噘起来。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/蓄力迸发",
+    "cmd_en": "/powerup",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/蓄力迸发 子命令\n/powerup\n迸发出真正的力量。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/行东方礼",
+    "cmd_en": "/easternbow",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ebow",
+    "desc": "/行东方礼 子命令\n/easternbow、/ebow\n做出行东方礼的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/深蹲",
+    "cmd_en": "/squats",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/深蹲 子命令\n/squats\n进行深蹲运动。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/俯卧撑",
+    "cmd_en": "/pushups",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/俯卧撑 子命令\n/pushups\n进行俯卧撑运动。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/仰卧起坐",
+    "cmd_en": "/situps",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/仰卧起坐 子命令\n/situps\n进行仰卧起坐运动。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/深呼吸",
+    "cmd_en": "/breathcontrol",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/深呼吸 子命令\n/breathcontrol\n进行深呼吸。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/说话",
+    "cmd_en": "/converse",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/说话 子命令\n/converse\n假装自己在说着什么。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/认真",
+    "cmd_en": "/concentrate",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/认真 子命令\n/concentrate\n做出认真的表情。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/困惑",
+    "cmd_en": "/disturbed",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/困惑 子命令\n/disturbed\n做出困惑的表情。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/柔和",
+    "cmd_en": "/simper",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/柔和 子命令\n/simper\n露出柔和的微笑。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/满足",
+    "cmd_en": "/beam",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/满足 子命令\n/beam\n做出满足的表情。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/立正",
+    "cmd_en": "/attention",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/立正 子命令\n/attention\n立正站好。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/稍息",
+    "cmd_en": "/atease",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/稍息 子命令\n/atease\n做出稍息动作。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/练拳",
+    "cmd_en": "/box",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/练拳 子命令\n/box\n开始进行格斗训练。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/祝祷",
+    "cmd_en": "/ritualprayer",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/祝祷 子命令\n/ritualprayer\n开始进行祝祷。\n>>子命令\n动作(motion)\n　只做动作。\n无子命令\n　做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/害怕",
+    "cmd_en": "/tremble",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/害怕 子命令\n/tremble\n瑟瑟发抖。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/单膝跪地",
+    "cmd_en": "/winded",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/单膝跪地 子命令\n/winded\n做出单膝跪地的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/大吃一惊",
+    "cmd_en": "/aback",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/大吃一惊 子命令\n/aback\n做出大吃一惊的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/打招呼",
+    "cmd_en": "/greet",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/打招呼 子命令\n/greet\n打个招呼。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/方形步",
+    "cmd_en": "/boxstep",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/方形步 子命令\n/boxstep\n踏起方形步，今夜我是主角。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/侧步",
+    "cmd_en": "/sidestep",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/侧步 子命令\n/sidestep\n踩着侧步起舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/究极",
+    "cmd_en": "/ultima",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/究极 子命令\n/ultima\n展现究极的力量。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/胡鹰之舞",
+    "cmd_en": "/yoldance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/胡鹰之舞 子命令\n/yoldance\n踏起胡鹰之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/撩水",
+    "cmd_en": "/splash",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/撩水 子命令\n/splash\n撩起水花。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/好热",
+    "cmd_en": "/sweat",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/好热 子命令\n/sweat\n假装自己很热。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/好冷",
+    "cmd_en": "/shiver",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/好冷 子命令\n/shiver\n模仿很冷的样子。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/说明",
+    "cmd_en": "/elucidate",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/说明 子命令\n/elucidate\n进行说明。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/思索",
+    "cmd_en": "/ponder",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/思索 子命令\n/ponder\n做出思索的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/左飞眼",
+    "cmd_en": "/leftwink",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/左飞眼 子命令\n/leftwink\n抛出飞眼。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/幻想舞步",
+    "cmd_en": "/getfantasy",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/幻想舞步 子命令\n/getfantasy\n跳起幻想舞步。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/波波托步",
+    "cmd_en": "/popotostep",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/波波托步 子命令\n/popotostep\n跳起波波托步。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/哼歌",
+    "cmd_en": "/hum",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/哼歌 子命令\n/hum\n静静哼一首歌。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/确认",
+    "cmd_en": "/confirm",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/确认 子命令\n/confirm\n仔细进行确认。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/说明计划",
+    "cmd_en": "/scheme",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/说明计划 子命令\n/scheme\n说明自己的计划。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/忍耐",
+    "cmd_en": "/endure",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/忍耐 子命令\n/endure\n做出忍耐的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/神典石",
+    "cmd_en": "/tomestone",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/神典石 子命令\n/tomestone\n掏出神典石赏玩一番。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/趾踵步",
+    "cmd_en": "/heeltoe",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/趾踵步 子命令\n/heeltoe\n跳起趾踵步。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/古菩步",
+    "cmd_en": "/goobbuedo",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/古菩步 子命令\n/goobbuedo\n跳起古菩步。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/心意",
+    "cmd_en": "/gratuity",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/心意 子命令\n/gratuity\n做出撒一把钱以示心意的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/振作精神",
+    "cmd_en": "/fistpump",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/振作精神 子命令\n/fistpump\n做出振作精神的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/提醒",
+    "cmd_en": "/reprimand",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/提醒 子命令\n/reprimand\n进行提醒。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/优雅仙人刺",
+    "cmd_en": "/sabotender",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/优雅仙人刺 子命令\n/sabotender\n做出优雅仙人刺的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/绅士舞步",
+    "cmd_en": "/mandervillemambo",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/mmambo",
+    "desc": "/绅士舞步 子命令\n/mandervillemambo(/mmambo)\n踏上最具绅士风度的舞步。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/啦哩吼",
+    "cmd_en": "/laliho",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/啦哩吼 子命令\n/laliho\n精神地用啦哩吼打一声招呼。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/欧米茄M架势",
+    "cmd_en": "/simulationm",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/欧米茄M架势 子命令\n/simulationm\n摆出欧米茄M的架势。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/欧米茄F架势",
+    "cmd_en": "/simulationf",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/欧米茄F架势 子命令\n/simulationf\n摆出欧米茄F的架势。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/干杯",
+    "cmd_en": "/toast",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/干杯 子命令\n/toast\n干了这杯橙汁！\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/背靠",
+    "cmd_en": "/lean",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/背靠\n/lean\n用背靠着什么东西的姿势站立。\n※该情感动作只有动作，没有文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/头痛",
+    "cmd_en": "/headache",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/头痛 子命令\n/headache\n头痛欲裂。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/打响指",
+    "cmd_en": "/snap",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/打响指 子命令\n/snap\n打个响指。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/吃面包",
+    "cmd_en": "/breakfast",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/bread",
+    "desc": "/吃面包 子命令\n/bread\n拿出面包啃。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/看书",
+    "cmd_en": "/read",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/看书 子命令\n/read\n拿出书阅读。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/坚持主张",
+    "cmd_en": "/insist",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/坚持主张 子命令\n/insist\n坚持自己的主张。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/疑问",
+    "cmd_en": "/consider",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/hmm",
+    "desc": "/疑问 子命令\n/consider、/hmm\n抱有疑问。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/嘿哟",
+    "cmd_en": "/wasshoi",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/嘿哟 子命令\n/wasshoi\n嘿哟！嘿哟！\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/花雨",
+    "cmd_en": "/flowershower",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/petals",
+    "desc": "/花雨 子命令\n/flowershower、/petals\n沐浴在花雨中。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/火焰之舞",
+    "cmd_en": "/flamedance",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/火焰之舞 子命令\n/flamedance\n跳起火焰之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/击掌",
+    "cmd_en": "/highfive",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/hifive",
+    "desc": "/击掌 子命令\n/highfive、/hifive\n做出击掌的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/巡视",
+    "cmd_en": "/guard",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/巡视 子命令\n/guard\n巡视四周。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/诅咒",
+    "cmd_en": "/malevolence",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/诅咒 子命令\n/malevolence\n做出诅咒的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/蜜蜂之舞",
+    "cmd_en": "/beesknees",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/蜜蜂之舞 子命令\n/beesknees\n跳起蜜蜂之舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/啦哩吼舞",
+    "cmd_en": "/lalihop",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/啦哩吼舞 子命令\n/lalihop\n跳起啦哩吼舞。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/吃饭团",
+    "cmd_en": "/eatriceball",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/riceball",
+    "desc": "/吃饭团 子命令\n/eatriceball、/riceball\n开始吃饭团。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/吃苹果",
+    "cmd_en": "/eatapple",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/apple",
+    "desc": "/吃苹果 子命令\n/eatapple、/apple\n开始吃苹果。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/搓手",
+    "cmd_en": "/wringhands",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/搓手 子命令\n/wringhands\n做出搓手的动作。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/扫地",
+    "cmd_en": "/sweep",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/broom",
+    "desc": "/扫地 子命令\n/sweep、/broom\n开始用扫帚扫地。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/黑色陆行鸟之笔",
+    "cmd_en": "/paintblack",
+    "cmd_zh_abbr": "/涂黑",
+    "cmd_en_abbr": "",
+    "desc": "/黑色陆行鸟之笔（/涂黑） 子命令\n/paintblack\n将脚下涂黑。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/红色陆行鸟之笔",
+    "cmd_en": "/paintred",
+    "cmd_zh_abbr": "/涂红",
+    "cmd_en_abbr": "",
+    "desc": "/红色陆行鸟之笔（/涂红） 子命令\n/paintred\n将脚下涂红。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/黄色陆行鸟之笔",
+    "cmd_en": "/paintyellow",
+    "cmd_zh_abbr": "/涂黄",
+    "cmd_en_abbr": "",
+    "desc": "/黄色陆行鸟之笔（/涂黄） 子命令\n/paintyellow\n将脚下涂黄。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/蓝色陆行鸟之笔",
+    "cmd_en": "/paintblue",
+    "cmd_zh_abbr": "/涂蓝",
+    "cmd_en_abbr": "",
+    "desc": "/蓝色陆行鸟之笔（/涂蓝） 子命令\n/paintblue\n将脚下涂蓝。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/假笑",
+    "cmd_en": "/fakesmile",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/假笑 子命令\n/fakesmile\n露出假笑的表情。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/默剧",
+    "cmd_en": "/pantomime",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/mime",
+    "desc": "/默剧 子命令\n/pantomime、/mime\n表演默剧。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/不解",
+    "cmd_en": "/vexed",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/不解 子命令\n/vexed\n表现出困惑的样子。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/嘘",
+    "cmd_en": "/shush",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/shh",
+    "desc": "/嘘 子命令\n/shush、/shh\n催促周围保持安静。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/吃披萨",
+    "cmd_en": "/eatpizza",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/pizza",
+    "desc": "/吃披萨 子命令\n/eatpizza、/pizza\n开始吃披萨。\n>>子命令\n动作(motion)\n只做动作。\n无子命令\n做出动作并显示文字提示。",
+    "type": "情感动作"
+  },
+  {
+    "cmd_zh": "/技能菜单",
+    "cmd_en": "/actionlist",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/alist",
+    "desc": "/技能菜单\n/actionlist、/alist\n打开技能菜单。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/角色",
+    "cmd_en": "/character",
+    "cmd_zh_abbr": "/装备",
+    "cmd_en_abbr": "/gear",
+    "desc": "/角色(/装备)\n/character、/gear\n打开角色窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/兵装库",
+    "cmd_en": "/armourychest",
+    "cmd_zh_abbr": "/兵装",
+    "cmd_en_abbr": "/armoury",
+    "desc": "/兵装库(/兵装)\n/armourychest、/armoury\n打开兵装库。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/物品",
+    "cmd_en": "/inventory",
+    "cmd_zh_abbr": "/背包",
+    "cmd_en_abbr": "/bag",
+    "desc": "/物品(/背包)\n/inventory\n打开物品窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/陆行鸟鞍囊",
+    "cmd_en": "/chocobobag",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/saddlebag",
+    "desc": "/陆行鸟鞍囊\n/chocobobag、/saddlebag\n打开陆行鸟鞍囊。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/搭档",
+    "cmd_en": "/companion",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/comp",
+    "desc": "/搭档\n/companion、/comp\n打开搭档窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/坐骑一览",
+    "cmd_en": "/mountlist",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/mountguide",
+    "desc": "/坐骑一览\n/mountlist、/mountguide\n打开坐骑一览。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/宠物一览",
+    "cmd_en": "/minionguide",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/宠物一览\n/minionguide\n打开宠物一览。在萌宠之王的对战中打开萌宠之王列表。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/对战资料",
+    "cmd_en": "/pvpprofile",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/pvppro",
+    "desc": "/对战资料\n/pvpprofile、/pvppro\n打开对战资料窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/金碟游乐场",
+    "cmd_en": "/goldsaucer",
+    "cmd_zh_abbr": "/金碟",
+    "cmd_en_abbr": "/saucer",
+    "desc": "/金碟游乐场(/金碟)\n/goldsaucer、/saucer\n打开金碟游乐场窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/成就",
+    "cmd_en": "/achievements",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/成就\n/achievements\n打开成就列表。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/货币一览",
+    "cmd_en": "/currency",
+    "cmd_zh_abbr": "/货币",
+    "cmd_en_abbr": "",
+    "desc": "/货币一览(/货币)\n/currency\n打开货币一览窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/推荐任务",
+    "cmd_en": "/recommended",
+    "cmd_zh_abbr": "/推荐",
+    "cmd_en_abbr": "",
+    "desc": "/推荐任务(/推荐)\n/recommended\n打开推荐任务窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/重要物品",
+    "cmd_en": "/collection",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/coll",
+    "desc": "/重要物品\n/collection、/coll\n打开重要物品窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/任务道具",
+    "cmd_en": "/keyitem",
+    "cmd_zh_abbr": "/关键道具",
+    "cmd_en_abbr": "/kitem",
+    "desc": "/任务道具(/关键道具)\n/keyitem、/kitem\n打开任务道具窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/日志",
+    "cmd_en": "/journal",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/日志\n/journal\n打开日志。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/任务搜索器",
+    "cmd_en": "/dutyfinder",
+    "cmd_zh_abbr": "/任务",
+    "cmd_en_abbr": "/dfinder",
+    "desc": "/任务搜索器(/任务)\n/dutyfinder、/dfinder\n打开任务搜索器。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/任务情报",
+    "cmd_en": "/timers",
+    "cmd_zh_abbr": "/情报",
+    "cmd_en_abbr": "",
+    "desc": "/任务情报(/情报)\n/timers\n打开任务情报窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/大型任务搜索器",
+    "cmd_en": "/raidfinder",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/rfinder",
+    "desc": "/大型任务搜索器\n/raidfinder、/rfinder\n打开大型任务搜索器。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/任务回顾",
+    "cmd_en": "/replay",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/record",
+    "desc": "/任务回顾\n/replay、/record\n打开任务回顾窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/昔日重现模式",
+    "cmd_en": "/newgame+",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/ng+",
+    "desc": "/昔日重现模式\n/newgame+、/ng+\n打开昔日重现模式窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/任务通用键",
+    "cmd_en": "/generaldutykey",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/gdutykey",
+    "desc": "/任务通用键\n/generaldutykey、/gdutykey\n执行任务通用键。\n\n>>示例\n危命任务范围内\n切换等级同步。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/讨伐笔记",
+    "cmd_en": "/huntinglog",
+    "cmd_zh_abbr": "/讨伐",
+    "cmd_en_abbr": "/hlog",
+    "desc": "/讨伐笔记(/讨伐)\n/huntinglog、/hlog\n打开讨伐笔记。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/探索笔记",
+    "cmd_en": "/sightseeinglog",
+    "cmd_zh_abbr": "/探索",
+    "cmd_en_abbr": "",
+    "desc": "/探索笔记(/探索)\n/sightseeinglog\n打开探索笔记。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/制作笔记",
+    "cmd_en": "/craftinglog",
+    "cmd_zh_abbr": "/制作",
+    "cmd_en_abbr": "/clog",
+    "desc": "/制作笔记(/制作)\n/craftinglog、/clog\n打开制作笔记。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/采集笔记",
+    "cmd_en": "/gatheringlog",
+    "cmd_zh_abbr": "/采集",
+    "cmd_en_abbr": "/glog",
+    "desc": "/采集笔记(/采集)\n/gatheringlog、/glog\n打开采集笔记。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/钓鱼笔记",
+    "cmd_en": "/fishinglog",
+    "cmd_zh_abbr": "/钓鱼",
+    "cmd_en_abbr": "/flog",
+    "desc": "/钓鱼笔记(/钓鱼)\n/fishinglog、/flog\n打开钓鱼笔记。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/鱼类图鉴",
+    "cmd_en": "/fishguide",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/fg",
+    "desc": "/鱼类图鉴\n/fishguide、/fg\n打开鱼类图鉴。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/管弦乐琴",
+    "cmd_en": "/orchestrion",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/管弦乐琴\n/orchestrion\n打开管弦乐琴乐谱集窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/挑战笔记",
+    "cmd_en": "/challengelog",
+    "cmd_zh_abbr": "/挑战",
+    "cmd_en_abbr": "",
+    "desc": "/挑战笔记(/挑战)\n/challengelog\n打开挑战笔记。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/地图",
+    "cmd_en": "/map",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/地图\n/map\n打开地图窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/传送",
+    "cmd_en": "/teleport",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/传送\n/teleport\n打开传送窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/返回",
+    "cmd_en": "/return",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/返回\n/return\n实行返回操作。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/风脉泉",
+    "cmd_en": "/aethercurrent",
+    "cmd_zh_abbr": "/风脉",
+    "cmd_en_abbr": "/acurrent",
+    "desc": "/风脉泉(/风脉)\n/aethercurrent、/acurrent\n打开风脉泉窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/坐骑速度",
+    "cmd_en": "/mountspeed",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/坐骑速度\n/mountspeed\n打开坐骑速度窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/队员招募",
+    "cmd_en": "/partyfinder",
+    "cmd_zh_abbr": "/招募",
+    "cmd_en_abbr": "/pfinder",
+    "desc": "/队员招募(/招募)\n/partyfinder、/pfinder\n打开队员招募窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/同好招募",
+    "cmd_en": "/fellowshipfinder",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/fsfinder",
+    "desc": "/同好招募\n/fellowshipfinder、/fsfinder\n打开同好招募窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/情感动作",
+    "cmd_en": "/emotelist",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/elist",
+    "desc": "/情感动作\n/emotelist、/elist\n打开情感动作窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/部队命令",
+    "cmd_en": "/freecompanycmd",
+    "cmd_zh_abbr": "/部队",
+    "cmd_en_abbr": "/fccmd",
+    "desc": "/部队命令(/部队)\n/freecompanycmd、/fccmd\n打开部队窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/房屋",
+    "cmd_en": "/housing",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/hou",
+    "desc": "/房屋\n/housing、/hou\n打开房屋窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/战队命令",
+    "cmd_en": "/pvpteamcmd",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/战队命令\n/pvpteamcmd\n打开战队窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/通讯贝命令",
+    "cmd_en": "/linkshellcmd",
+    "cmd_zh_abbr": "/通讯贝",
+    "cmd_en_abbr": "/lcmd",
+    "desc": "/通讯贝命令(/通讯贝)\n/linkshellcmd、/lcmd\n打开通讯贝窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/跨服贝命令",
+    "cmd_en": "/cwlinkshellcmd",
+    "cmd_zh_abbr": "/跨服贝",
+    "cmd_en_abbr": "/cwlcmd",
+    "desc": "/跨服贝命令(/跨服贝)\n/cwlinkshellcmd、/cwlcmd\n打开跨服通讯贝窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/同好会",
+    "cmd_en": "/fellowship",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/fs",
+    "desc": "/同好会\n/fellowship、/fs\n打开同好会窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/战友列表",
+    "cmd_en": "/contactlist",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/战友列表\n/contactlist\n打开战友列表。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/服务台",
+    "cmd_en": "/supportdesk",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/support",
+    "desc": "/服务台\n/supportdesk、/support\n打开服务台。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/资讯中心",
+    "cmd_en": "/playguide",
+    "cmd_zh_abbr": "/资讯",
+    "cmd_en_abbr": "/pguide",
+    "desc": "/资讯中心(/资讯)\n/playguide、/pguide\n打开资讯中心窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/新手指南",
+    "cmd_en": "/activehelp",
+    "cmd_zh_abbr": "/指南",
+    "cmd_en_abbr": "",
+    "desc": "/新手指南(/指南)\n/activehelp\n打开新手指南。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/角色设置",
+    "cmd_en": "/characterconfig",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/cconfig",
+    "desc": "/角色设置\n/characterconfig、/cconfig\n打开角色设置窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/系统设置",
+    "cmd_en": "/systemconfig",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/sconfig",
+    "desc": "/系统设置\n/systemconfig、/sconfig\n打开系统设置窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/界面设置",
+    "cmd_en": "/hudlayout",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "",
+    "desc": "/界面设置 子命令\n/hudlayout\n进行界面设置相关的操作。\n>>子命令\n界面编号(1-4)\n　切换为指定编号的界面。\n无子命令\n　打开界面设置窗口。\n\n>>示例\n/界面设置 3\n切换为界面3。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/用户宏",
+    "cmd_en": "/macros",
+    "cmd_zh_abbr": "/宏",
+    "cmd_en_abbr": "",
+    "desc": "/用户宏(/宏)\n/macros\n打开用户宏窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/键位设置",
+    "cmd_en": "/keybind",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/keyconfig",
+    "desc": "/键位设置\n/keybind、/keyconfig\n打开键位设置窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/信息颜色",
+    "cmd_en": "/logcolor",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/lcolor",
+    "desc": "/信息颜色\n/logcolor、/lcolor\n打开信息颜色设置窗口。",
+    "type": "呼出菜单"
+  },
+  {
+    "cmd_zh": "/对战特性",
+    "cmd_en": "/addpvptrait",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/apt",
+    "desc": "/对战特性 对战特性1 对战特性2 对战特性3/addpvptrait、/apt设置对战特性。需要同时设置三个特性。>>示例/对战特性 最大体力提高 行动速度提高 受伤减轻　…设置“最大体力提高”“行动速度提高”“受伤减轻”这三个特性。",
+    "type": "已移除的指令"
+  },
+  {
+    "cmd_zh": "/高斯枪管",
+    "cmd_en": "/gaussbarrel",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/gbarrel",
+    "desc": "该文本指令已移除/高斯枪管 子命令/gaussbarrel、/gbarrel设置是否显示高斯枪管。本设置只对自己有效，无法影响到其他玩家。>>子命令开(on)　显示高斯枪管。关(off)　不显示高斯枪管。无子命令　在显示与不显示之间切换。>>示例/高斯枪管 开显示高斯枪管。",
+    "type": "已移除的指令"
+  },
+  {
+    "cmd_zh": "/巴哈姆特尺寸",
+    "cmd_en": "/bahamutsize",
+    "cmd_zh_abbr": "",
+    "cmd_en_abbr": "/bahamutsize",
+    "desc": "该文本指令已移除可以变更亚灵神巴哈姆特的尺寸。※此文本指令已和“/召唤兽尺寸”合并，想要变更亚灵神巴哈姆特的尺寸时，请按照下述执行。\n/召唤兽尺寸 亚灵神巴哈姆特 小\n/petsize 亚灵神巴哈姆特 small",
+    "type": "已移除的指令"
+  }
+]
